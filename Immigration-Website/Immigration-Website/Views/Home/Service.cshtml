@@ -1,0 +1,26 @@
+﻿<script type="text/javascript">
+    var defaultActiveLink = "Home";
+</script>
+
+<div class="section section-standout">
+    <div class="container">
+        <div id="ServiceText">@Html.Partial("~/Views/Shared/ImmigrantGuide/_Spinner.cshtml")<br /><br /><br /></div>
+    </div>
+</div>
+
+<script>
+
+    function getQueryStringValue(key) {
+        return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
+    }
+
+    var ItemId = getQueryStringValue('Id');
+
+    if (!(ItemId)) {
+        ItemId = MultiLanguageCode.Cookies.getCookie("LastIdViewed");
+        window.location = window.location + "/?Id=" + ItemId;
+    }
+
+    processJsonData.showServiceDetails('ServiceText', ItemId, '', '', 's', constantEntityProfileLangCode);
+
+</script>	

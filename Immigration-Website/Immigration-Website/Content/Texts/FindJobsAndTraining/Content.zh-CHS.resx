@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pageAdditionalResoucesHeader" xml:space="preserve">
+    <value>其他工作和培训资源</value>
+    <comment>05</comment>
+  </data>
+  <data name="pageAdditionalResoucesLinks" xml:space="preserve">
+    <value>&lt;div class="group"&gt;
+            &lt;div class="half"&gt;
+                &lt;div class="media"&gt;
+                    &lt;!--   &lt;div class="media-left"&gt;&lt;span class="ca-gov-icon-capitol text-accent1 biggest"&gt;&lt;/span&gt;&lt;/div&gt; --&gt;
+                    &lt;div class="media-body"&gt;
+                        &lt;!--   &lt;h3 class="h4"&gt;Naturalization Process&lt;/h3&gt; --&gt;
+                        &lt;ul class="list-standout"&gt;
+                            &lt;li&gt;
+                                &lt;a href="http://cwdb.ca.gov/local_boards/local_workforce_investment_associations/ " target="_blank"&gt;&lt;strong&gt;California Workforce Development Boards（劳动力发展局）&lt;/strong&gt;&lt;/a&gt;
+                                &lt;p&gt;当地的 Workforce Development Boards 为当地居民和企业提供服务。他们的服务包括一站式就业中心，您可以在那里找到劳动力、教育和商业服务。&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="http://www.lacooperativa.org/services-offered/ " target="_blank"&gt;&lt;strong&gt;La Cooperativa（合作社）&lt;/strong&gt;&lt;/a&gt;
+                                &lt;p&gt;
+                                    La Cooperativa 通过其成员组织在农村地区提供教育和就业服务。他们的项目帮助农业工人提供就业准备和培训计划。La Cooperativa 及其成员实施 &lt;a href="https://www.dol.gov/agencies/eta/agriculture/" target="_blank"&gt;National Farmworker Jobs Program(国家农业工人就业计划)&lt;/a&gt;。
+                                &lt;/p&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="half"&gt;
+                &lt;div class="media"&gt;
+
+                    &lt;div class="media-body"&gt;
+
+                        &lt;ul class="list-standout"&gt;
+                            &lt;li&gt;
+                                &lt;a href="http://www.edd.ca.gov/jobs_and_training/Migrant_and_Seasonal_Farm_Worker_Outreach_Program.htm" target="_blank"&gt;&lt;strong&gt;Migrant and Seasonal Farmworker Outreach Program （移民和季节性农业工人外展计划）&lt;/strong&gt;&lt;/a&gt;
+                                &lt;p&gt;Migrant and Seasonal Farmworker Outreach Program 为移民季节性农业工人求职者提供招聘服务，包括求职帮助和 CalJOBS SM 导航信息。他们提供注册和访问其他 Employment Development Department programs（就业发展局方案）的支持。&lt;/p&gt;
+                            &lt;/li&gt;
+
+
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;</value>
+    <comment>06</comment>
+  </data>
+  <data name="pageFirstAgenciesSectionHeader" xml:space="preserve">
+    <value>就业与培训 &amp;mdash; 国家机构</value>
+    <comment>03</comment>
+  </data>
+  <data name="pageFirstServicesSectionHeader" xml:space="preserve">
+    <value>就业与培训 &amp;mdash; 服务</value>
+    <comment>01</comment>
+  </data>
+  <data name="pageIntroText" xml:space="preserve">
+    <value>&lt;p style="font-size: 1.2em;"&gt;
+           California 有帮助人们找工作的服务。社区组织、成人学校和社区学院有可以帮助您获得工作培训和提高工作技能的项目和服务。这些组织有工作招聘会等活动。他们也提供工作培训和职业技术教育方面的课程。
+        &lt;/p&gt;</value>
+    <comment>00</comment>
+  </data>
+  <data name="pageSecondAgenciesSectionHeader" xml:space="preserve">
+    <value />
+    <comment>04</comment>
+  </data>
+  <data name="pageSecondServicesSectionHeader" xml:space="preserve">
+    <value />
+    <comment>02</comment>
+  </data>
+</root>

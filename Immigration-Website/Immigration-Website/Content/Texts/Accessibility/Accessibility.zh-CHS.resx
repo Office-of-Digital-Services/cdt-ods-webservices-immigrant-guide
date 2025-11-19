@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="browserTitle" xml:space="preserve">
+    <value>无障碍环境</value>
+    <comment>00</comment>
+  </data>
+  <data name="pageText" xml:space="preserve">
+    <value>&lt;p&gt;California 州网站根据 California 政府法 7405 的规定开发。政府法第 7405 节要求，California 州政府开发或采购的所有电子信息技术必须方便残障人士使用。影响用户在网站上互动的身体残障分为很多不同的类型。例如视力障碍、听力丧失、手的灵巧受限和智能障碍，针对每个残障类别，我们都提供不同的途径帮助用户有效地访问电子信息。我们的目标是为所有访问者提供极具意义且富有成效的网站体验。 &lt;br /&gt;&lt;br /&gt;
+
+		自 2017 年 1 月 1 日起，该用语已列入 Gov. Code S. 7405。 
+        &lt;/p&gt;
+		
+        &lt;h2&gt;易于使用的功能 &lt;/h2&gt;
+		
+        &lt;p&gt;下面，您将看到一个技术解决方案列表，我们已对它们进行整合，使我们的网站更易于导航、快速加载和访问。 &lt;/p&gt;
+        
+		&lt;h3&gt;照片/图片： &lt;/h3&gt;
+		
+        &lt;p&gt;使用替代文本 "ALT" 和/或 "TITLE" 属性。ALT/TITLE 属性是图片的文字描述，屏幕阅读器可以读取，而且当鼠标放在图片上时，描述也会显示。这对于在浏览器上将图片关闭的用户也有帮助，在这种情况下，描述将显示在图片所在的位置。&lt;/p&gt;
+		
+        &lt;h2&gt;网站内容无障碍指导方针 (WCAG) 2.0 AA 级  &lt;/h2&gt;
+		
+        &lt;p&gt;该模板坚持 World Wide Web Consortium 制定的 WCAG 2.0 AA 指导方针与成功标准。根据以下四个原则组织安排： &lt;/p&gt;
+				
+        &lt;h3&gt;可领会：&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;为非文本内容提供文本替代内容。 &lt;/li&gt;
+            &lt;li&gt;为多媒体提供解说字幕和其他替代内容。 &lt;/li&gt;
+            &lt;li&gt;创作可以不同的方式呈现的内容，但又不丢失其中的含义，包括提供辅助技术。 &lt;/li&gt;
+            &lt;li&gt;让用户观看和听写内容变得更方便。 &lt;/li&gt;
+        &lt;/ul&gt;
+		
+		
+        &lt;h3&gt;可操作：&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;使所有功能均可通过键盘操作。 &lt;/li&gt;
+            &lt;li&gt;为用户提供充足的时间阅读并使用内容。 &lt;/li&gt;
+            &lt;li&gt;不使用会导致疾病突然发作的内容。 &lt;/li&gt;
+            &lt;li&gt;帮助用户导航并查找内容。&lt;/li&gt;
+        &lt;/ul&gt;
+		
+		
+        &lt;h3&gt;可理解：&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;使文本易于阅读和理解。 &lt;/li&gt;
+            &lt;li&gt;使内容以可预见的方式显示并操作。&lt;/li&gt;
+            &lt;li&gt;帮助用户避免并纠正错误。 &lt;/li&gt;
+        &lt;/ul&gt;
+
+		
+        &lt;h3&gt;稳定：&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;能与当前及未来的用户工具最大程度地兼容。 &lt;/li&gt;
+        &lt;/ul&gt;
+		
+		&lt;p&gt;这些附加内容会提高受众的无障碍和授权级别，打造完全可访问的网站和文档，使所有用户乐享其中。 &lt;/p&gt;</value>
+    <comment>02</comment>
+  </data>
+  <data name="pageTitle" xml:space="preserve">
+    <value>无障碍环境</value>
+    <comment>01</comment>
+  </data>
+</root>

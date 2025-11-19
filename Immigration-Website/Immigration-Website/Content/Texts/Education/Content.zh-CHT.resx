@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pageAdditionalResoucesHeader" xml:space="preserve">
+    <value>其他教育資源</value>
+    <comment>05</comment>
+  </data>
+  <data name="pageAdditionalResoucesLinks" xml:space="preserve">
+    <value>&lt;div class="group"&gt;
+            &lt;div class="half"&gt;
+                &lt;div class="media"&gt;
+                    &lt;!-- &lt;div class="media-left"&gt;&lt;span class="ca-gov-icon-capitol text-accent1 biggest"&gt;&lt;/span&gt;&lt;/div&gt; --&gt;
+                    &lt;div class="media-body"&gt;
+
+                        &lt;ul class="list-standout"&gt;
+                            &lt;li&gt;
+                                &lt;a href="https://dream.csac.ca.gov/" target="_blank"&gt;&lt;strong&gt;California Dream Act&lt;/strong&gt;&lt;/a&gt;
+                                &lt;p&gt;California Dream Act 申請使得符合條件的有證與無證學生可以申請用於大學和職業培訓的助學金。&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="http://undoc.universityofcalifornia.edu/campus-support.html" target="_blank"&gt;&lt;strong&gt;University of California 無證學生資源&lt;/strong&gt;&lt;/a&gt;
+                                &lt;p&gt;University of California 可以幫助無證學生在學校內外尋找學院、資金、法律、醫護以及社會支持的校園工作人員以及教職人員名單。&lt;/p&gt;
+                            &lt;/li&gt;
+
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="half"&gt;
+                &lt;div class="media"&gt;
+
+                    &lt;div class="media-body"&gt;
+                        &lt;h3 class="h4"&gt;社區教育&lt;/h3&gt;
+                        &lt;ul class="list-standout"&gt;
+                            &lt;li&gt;
+                                &lt;a href="https://www2.calstate.edu/attend/student-services/resources-for-undocumented-students" target="_blank"&gt;&lt;strong&gt;California State University 無證學生資源&lt;/strong&gt;&lt;/a&gt;
+                                &lt;p&gt;為就讀或準備就讀 California State University 的學生提供的資源名單。California State University 系統致力於確保全加州學生，無論是否擁有公民身份，都可享有學院教育機會。 &lt;/p&gt;
+                            &lt;/li&gt;
+
+                            &lt;li&gt;
+                                &lt;a href="http://www.icanaffordcollege.com/en-us/financialaidinfo/dreamact.aspx" target="_blank"&gt;&lt;strong&gt;CA Community College 資源&lt;/strong&gt;&lt;/a&gt;
+                                &lt;p&gt;為在加州就讀或計劃就讀其中一所 California Community College 的學生提供的資助類型名單。California Community Colleges 以及高等教育領導者鼓勵符合 California Dream Act 條件的學生申請助學金。&lt;/p&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;</value>
+    <comment>06</comment>
+  </data>
+  <data name="pageFirstAgenciesSectionHeader" xml:space="preserve">
+    <value>教育——州立機構</value>
+    <comment>03</comment>
+  </data>
+  <data name="pageFirstServicesSectionHeader" xml:space="preserve">
+    <value>教育——服務</value>
+    <comment>01</comment>
+  </data>
+  <data name="pageIntroText" xml:space="preserve">
+    <value>&lt;p style="font-size: 1.2em;"&gt;
+加州擁有為所有年齡和技術水平的人們提供的學校。這些學校包括公立與私立小學、初中以及高中。還有私立高等院校。我們的州立院校包括 &lt;a href="https://www.universityofcalifornia.edu/" target="_blank"&gt;University of California (UC，加州大學)&lt;/a&gt;，&lt;a href="https://www2.calstate.edu/" target="_blank"&gt;California State University (CSU，加州州立大學)&lt;/a&gt;，以及 &lt;a href="http://www.cccco.edu/" target="_blank"&gt;California Community Colleges (CCC，加州社區學院)&lt;/a&gt;，在全州都擁有校園。 
+			
+			&lt;br /&gt;&lt;br /&gt;
+			
+              加州還擁有學生資助計劃，幫助有需要的人們支付學費。該計劃可幫助需要獲取學士學位、教師證書、技術或職業證書的人們。加州還向有資格申請州助學金的無證學生提供 Dream Act(夢想法案)。
+        &lt;/p&gt;</value>
+    <comment>00</comment>
+  </data>
+  <data name="pageSecondAgenciesSectionHeader" xml:space="preserve">
+    <value />
+    <comment>04</comment>
+  </data>
+  <data name="pageSecondServicesSectionHeader" xml:space="preserve">
+    <value />
+    <comment>02</comment>
+  </data>
+</root>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="browserTitle" xml:space="preserve">
+    <value>RECURSOS PARA DAMNIFICADOS POR INCENDIO, INUNDACION Y AVALANCHA DE LODO</value>
+    <comment>00</comment>
+  </data>
+  <data name="pageText" xml:space="preserve">
+    <value>&lt;p style="text-align:center;font-weight:bold;font-size: 1.6em"&gt;RECURSOS PARA DAMNIFICADOS POR INCENDIO, INUNDACION Y AVALANCHA DE LODO&lt;/p&gt;
+
+&lt;p&gt;En esta página encontrará enlaces a recursos de asistencia para damnificados e información para asegurar su salud y seguridad.&lt;/p&gt; 
+
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Guía de Ayuda para Inmigrantes Damnificados &lt;/p&gt;
+
+&lt;p&gt;La Guía de Servicios de Asistencia por Desastres para Californianos Inmigrantes del Departamento de Servicios Sociales de California (CDSS, por sus siglas en inglés) contiene información detallada sobre diferentes tipos de asistencia federal, estatal y local para damnificados en California. Aunque algunos tipos de asistencia son solo para aquellos individuos u hogares con estatus migratorio legal, hay muchos tipos de servicios de asistencia disponibles a todas las personas en California que se han visto afectados por los desastres.&lt;/p&gt;
+
+&lt;p style="margin-left: 30px;"&gt;&lt;a href="http://www.cdss.ca.gov/Portals/13/DisasterAssistanceGuideforImmigrantCaliforniansSpanishFinal.pdf?ver=2017-10-24-121256-343" target="_blank"&gt;CDSS Guía de Servicios de Asistencia por Desastres para Californianos Inmigrantes&lt;/a&gt; (PDF) &lt;/p&gt;
+
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;CalFresh de Desastre&lt;/p&gt;
+
+&lt;p&gt;Como parte de los esfuerzos de recuperación continua por los desastres naturales, individuos y familias impactadas por los incendios y/o las avalanchas de lodo en los condados de Santa Bárbara y Ventura podría calificar para recibir un mes ayuda con comida por medio de CalFresh de Desastre. Una familia de cuatro personas con ingresos de no más de $2,755 al mes podrían recibir hasta $640 en ayuda con comida por medio del programa CalFresh de Desastre de California. &lt;/p&gt;
+ 
+&lt;p style="font-weight:bold;"&gt;Las familias deben solicitar esta ayuda entre el martes 6 de febrero y el miércoles 14 de febrero.&lt;/p&gt; 
+
+&lt;p style="margin-left: 30px;"&gt;Boletín Informativo -- &lt;a href="http://www.cdss.ca.gov/Portals/9/CalFreshResourceCenter/DCFPressReleaseFinalVersionSpanish.pdf?ver=2018-02-06-133404-810" target="_blank"&gt;Beneficios de Comida Disponibles para Víctimas de los Incendios Forestales o Desprendimientos de Lodo, o Ambos, En California&lt;/a&gt;, 2 de febrero del 2018&lt;/p&gt;
+
+&lt;p style="margin-left: 30px;"&gt;&lt;a href="http://www.cdss.ca.gov/Portals/9/CalFreshResourceCenter/DCFOutreachFlyerTemplateSpanishFINAL020518.pdf?ver=2018-02-06-133134-757" target="_blank"&gt;Volante Informativo sobre CalFresh de Desastre&lt;/a&gt;, febrero 2018 (PDF)&lt;/p&gt;
+
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Asistencia a los Desempleados por Desastre&lt;/p&gt;
+
+&lt;p&gt;Los beneficios del programa de &lt;a href="http://www.edd.ca.gov/Unemployment/Disaster_Unemployment_Assistance.htm" target="_blank"&gt;Asistencia a los Desempleados por Desastre (DUA, por sus siglas en inglés)&lt;/a&gt; son para los trabajadores con autorización de trabajo e individuos que trabajan por cuenta propia que perdieron su trabajo a sufrieron una reducción significativa en sus horas de trabajo por causa de los incendios, las inundaciones y las avalanchas de lodo y flujos de escombros en los condados de Los Ángeles, San Diego, Santa Bárbara y Ventura.&lt;/p&gt;
+
+&lt;p&gt;Este programa de asistencia federal, administrado por el Departamento de Desarrollo de Empleo (EDD, por sus siglas en inglés), provee beneficios temporales de desempleo a personas cuyo trabajo u horas de trabajo fueron directamente afectadas por los desastres. Las personas tienen hasta el 20 de febrero del 2018 para &lt;a href="https://eapply4ui.edd.ca.gov/" target="_blank"&gt;solicitar DUA&lt;/a&gt;, pero esta fecha límite para solicitar puede ser extendida si hay buena causa.&lt;/p&gt;
+
+&lt;p style="margin-left: 30px;"&gt;&lt;a href="http://www.edd.ca.gov/pdf_pub_ctr/de8714yzs.pdf" target="_blank"&gt;Programa de Asistencia a los Desempleados por Desastre - Hoja Informativa&lt;/a&gt; (PDF) &lt;/p&gt;
+
+&lt;p&gt;Para más información sobre los beneficios y servicios que ofrece el Departamento del Desarrollo de Empleo (EDD), incluyendo información sobre el Seguro de Desempleo visite la &lt;a href="http://www.edd.ca.gov/Informacion_general_en_Espanol.htm" target="_blank"&gt;página de EDD en español&lt;/a&gt; en línea. &lt;/p&gt;
+ 
+ 
+ 
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Cal/OSHA Seguridad y Salud del Trabajador&lt;/p&gt;
+
+&lt;p&gt;La &lt;a href="https://www.dir.ca.gov/dosh/Spanish/dosh1.html" target="_blank"&gt;División de Seguridad y Salud Ocupacional&lt;/a&gt; (DOSH, por sus siglas en inglés) de California, conocida como Cal/OSHA, protege y mejora la salud y seguridad de los hombres y mujeres que trabajan en California.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.dir.ca.gov/DOSH/Spanish/Worker-Health-and-Safety-in-Wildfire-Regions(Spanish).html" target="_blank"&gt;Cal/OSHA Salud y seguridad de trabajadores en regiones de incendios&lt;/a&gt; – Cal/OSHA ofrece información para empleadores de cómo proteger a trabajadores expuestos al humo de los incendios y listas de los Centros de Operaciones de Emergencia de los Condados donde hay respiradores (mascarillas) N95 disponibles. &lt;/P&gt; 
+
+
+&lt;p style="margin-left: 30px;"&gt;&lt;a href="http://www.dir.ca.gov/dosh/documents/Spanish/Wildfire-Safety-Notice-for-Employers-Spanish.pdf" target="_blank"&gt;Aviso de Cal/OSHA - Salud y seguridad de trabajadores en regiones de
+incendios&lt;/a&gt; (PDF) – 16 de octubre 2017&lt;/p&gt;
+
+&lt;p&gt;Para presentar un reclamo de seguridad en su lugar de trabajo visite &lt;a href="http://www.dir.ca.gov/dosh/Spanish/Complaint.htm" target="_blank"&gt;la página en español&lt;/a&gt; del Departamento de Relaciones Industriales (DIR, por sus siglas en inglés) de Cal/OSHA.&lt;/p&gt;
+
+
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Departamento de Alimentos y Agricultura de California &lt;/p&gt;
+
+&lt;p&gt;El Departamento de Alimentos y Agricultura de California (CDFA, por sus siglas en inglés) ofrece información sobre &lt;a href="https://www.cdfa.ca.gov/firerecovery/" target="_blank"&gt;recursos para damnificados de los incendios&lt;/a&gt;. &lt;/p&gt;
+
+
+
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Departamento de Salud Pública de California &lt;/p&gt;
+
+&lt;p&gt;El Departamento de Salud Pública de California (CDPH, por sus siglas en inglés) publicó el 17 de octubre del 2017 una guía sobre el &lt;a href="https://www.cdph.ca.gov/Documents/Uso de respiradores (mascarillas) por el publico para la proteccion en contra del humo de cenizas o cenizas.pdf" target="_blank"&gt;Uso de respiradores (mascarillas) por el público para la protección en contra del humo de cenizas o cenizas&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Oficina de Servicios de Emergencia de California&lt;/p&gt; 
+
+&lt;p style="margin-left: 30px;"&gt;&lt;a href="http://wildfirerecovery.org/" target="_blank"&gt;Recursos para Asistencia para Damnificados por Incendios&lt;/a&gt; – octubre 2017&lt;/p&gt;
+
+
+
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Departamento de Seguros de California&lt;/p&gt;
+
+&lt;p style="margin-left: 30px;"&gt;&lt;a href="https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm" target="_blank"&gt;Recursos sobre Seguros por Incendios del 2017 &lt;/a&gt;&lt;/p&gt;
+
+
+	
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Asistencia Legal&lt;/p&gt;
+
+&lt;p&gt;Si tiene preguntas sobre su elegibilidad basado en su estatus migratorio o necesita ayuda legal para navegar el proceso de solicitud para asistencia de damnificados, usted podría calificar para asistencia legal gratis. Para aprender más sobre estos servicios contacte las siguientes organizaciones.&lt;/p&gt;
+
+&lt;p style="margin-left: 30px;"&gt;Asociación de Abogados de California (California State Bar) &lt;a href="http://www.calbar.ca.gov/Public/Need-Legal-Help/Free-Legal-Help/Legal-Help-After-Disaster" target="_blank"&gt;Servicios Legales para Damnificados&lt;/a&gt; &lt;/p&gt;
+
+&lt;p style="margin-left: 30px;"&gt;La División de Inmigrantes del Departamento de Servicios Sociales de California, CDSS financia a &lt;a href="http://www.cdss.ca.gov/Portals/9/Immigration/Contractor Referral List FY 16-17.pdf?ver=2017-08-21-132743-620" target="_blank"&gt;organizaciones comunitarias sin fines de lucro que proveen servicios a inmigrantes&lt;/a&gt; que viven en California. &lt;/p&gt;</value>
+    <comment>02</comment>
+  </data>
+  <data name="pageTitle" xml:space="preserve">
+    <value>RECURSOS PARA DAMNIFICADOS POR INCENDIO, INUNDACION Y AVALANCHA DE LODO</value>
+    <comment>01</comment>
+  </data>
+</root>

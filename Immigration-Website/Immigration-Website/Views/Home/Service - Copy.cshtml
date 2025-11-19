@@ -1,0 +1,82 @@
+﻿<script type="text/javascript">
+    var defaultActiveLink = "Home";
+</script>
+
+<div id="serviceText">
+    @Html.Partial("~/Views/Shared/ImmigrantGuide/_Spinner.cshtml")
+</div>
+
+<script>
+    var imageUrlPrefix = "http://stateentityprofile.ca.gov/Uploads";
+
+    function getQueryStringValue(key) {
+        return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
+    }
+
+    var ItemId = getQueryStringValue('Id');
+
+    if (!(ItemId)) {
+        ItemId = MultiLanguageCode.Cookies.getCookie("LastIdViewed");
+        window.location = window.location + "/?Id=" + ItemId;
+    }
+
+
+    var textToDisplay = "";
+
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            var myObj = JSON.parse(this.responseText);
+
+            //var arrayLength = myObj.length;
+
+            //for (var i = 0; i < arrayLength; i++) {
+                textToDisplay = textToDisplay + "<div class=\"section section-standout\">";
+                textToDisplay = textToDisplay + "<div class=\"container\">";
+                textToDisplay = textToDisplay + "<div class=\"group\">";
+                textToDisplay = textToDisplay + "<div class=\"third\">";
+                textToDisplay = textToDisplay + "<img src=\"" + imageUrlPrefix + "/";
+                if (myObj.ImageUrl) {
+                    textToDisplay = textToDisplay + myObj.ImageUrl;
+                }
+                else {
+                    textToDisplay = textToDisplay + "service-General.jpg"
+                }
+                textToDisplay = textToDisplay + "\" alt=\"" + myObj.ServiceName + "\" class=\"img-responsive img-thumbnail\">";
+                textToDisplay = textToDisplay + "</div>";
+
+                textToDisplay = textToDisplay + "<div class=\"two-thirds\">";
+                textToDisplay = textToDisplay + "<h1 class=\"m-y-0 text-accent-p1\">" + myObj.ServiceName + "</h1>";
+                textToDisplay = textToDisplay + "<p class=\"lead\">";
+                textToDisplay = textToDisplay + "<a href=\"@Url.Action("Agency", "Home")/?Id=" + myObj.AgencyId + "\">" + myObj.FriendlyName + " (" + myObj.Acronym + ")</a>";
+                textToDisplay = textToDisplay + "</p>";
+                textToDisplay = textToDisplay + "<p>" + myObj.Description + "</p>";
+                textToDisplay = textToDisplay + "<div class=\"btn-row m-y\">";
+                textToDisplay = textToDisplay + "<a href=\"" + myObj.ServiceUrl + "\" class=\"btn btn-primary btn-block-xs\" target=\"_blank\"><span class=\"ca-gov-icon-computer\"></span>";
+                textToDisplay = textToDisplay + "&nbsp;<span>"+ constantStart + "</span>";
+                textToDisplay = textToDisplay + "</a>";
+
+                textToDisplay = textToDisplay + "<a target=\"_blank\" href=\"" + myObj.ContactUrl + "\" class=\"btn btn-primary btn-block-xs\">";
+                textToDisplay = textToDisplay + "<span class=\"ca-gov-icon-contact-us\"></span>";
+                textToDisplay = textToDisplay + "&nbsp;<span> " + constantContactUs + "</span>";
+                textToDisplay = textToDisplay + "</a>";
+                textToDisplay = textToDisplay + "</div>";
+                textToDisplay = textToDisplay + "<div class=\"location\" itemscope itemtype=\"http://schema.org/Organization\">";
+                textToDisplay = textToDisplay + "<meta itemprop=\"name\" content=\"" + myObj.FriendlyName + "\">";
+                textToDisplay = textToDisplay + "<p class=\"other\">";
+                textToDisplay = textToDisplay + constantGeneralInformation + ": <span itemprop=\"telephone\">" + myObj.ContactPhone + "</span><br>";
+                textToDisplay = textToDisplay + "</p>";
+                textToDisplay = textToDisplay + "</div>";
+                textToDisplay = textToDisplay + "</div>";
+                textToDisplay = textToDisplay + "</div>";
+                textToDisplay = textToDisplay + "</div>";
+                textToDisplay = textToDisplay + "</div>";
+            //}
+        }
+
+        document.getElementById("serviceText").innerHTML = textToDisplay;
+    };
+    xmlhttp.open("GET", constantAPILocation + "?Id=" + ItemId + "&AgencyOrService=s&lang=" + constantEntityProfileLangCode, true);
+    xmlhttp.send();
+
+</script>	

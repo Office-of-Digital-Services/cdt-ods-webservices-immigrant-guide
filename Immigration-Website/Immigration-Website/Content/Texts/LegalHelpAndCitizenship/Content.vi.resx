@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pageAdditionalResoucesHeader" xml:space="preserve">
+    <value>Trợ Giúp Pháp Lý &amp; Quyền Công Dân &amp;mdash; Các Nguồn Lực</value>
+    <comment>05</comment>
+  </data>
+  <data name="pageAdditionalResoucesLinks" xml:space="preserve">
+    <value>&lt;div class="group"&gt;
+                &lt;div class="half"&gt;
+                    &lt;div class="media"&gt;
+                        &lt;div class="media-body"&gt;
+
+                            &lt;ul class="list-standout"&gt;
+                                &lt;li&gt;
+                                    &lt;a href="https://www.uscis.gov/greencard" target="_blank"&gt;&lt;strong&gt;Tìm Hiểu Việc Nhận Thẻ Xanh&lt;/strong&gt;&lt;/a&gt;
+                                    &lt;p&gt;U.S Citizenship and Immigration Services agency (Cơ quan Di Trú và Nhập Tịch Hoa Kỳ) cung cấp thông tin về việc trở thành Cư Dân Thường Trú của Hoa Kỳ.&lt;/p&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="https://www.uscis.gov/citizenship/learners/study-test" target="_blank"&gt;&lt;strong&gt;Học để Thi Quốc Tịch Hoa Kỳ&lt;/strong&gt;&lt;/a&gt;
+                                    &lt;p&gt;U.S Citizenship and Immigration Services agency cung cấp thông tin về việc thực hiện các bài thi bắt buộc để trở thành một công dân Hoa Kỳ được cấp quốc tịch.&lt;/p&gt;
+                                &lt;/li&gt;
+
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="half"&gt;
+                    &lt;div class="media"&gt;
+
+                        &lt;div class="media-body"&gt;
+
+                            &lt;ul class="list-standout"&gt;
+                                &lt;li&gt;
+                                    &lt;a href="https://www.uscis.gov/citizenship/other-languages" target="_blank"&gt;&lt;strong&gt;Các Câu Hỏi về Quốc Tịch Đã Được Dịch&lt;/strong&gt;&lt;/a&gt;
+                                    &lt;p&gt;U.S Citizenship and Immigration Services agency cung cấp các bản dịch cho các câu hỏi được đưa ra trong quá trình phỏng vấn nhập tịch.&lt;/p&gt;
+                                &lt;/li&gt;
+
+                                &lt;li&gt;
+                                    &lt;a href="https://www.uscis.gov/citizenship/apply-for-citizenship/free-naturalization-information-sessions" target="_blank"&gt;&lt;strong&gt;Các Cuộc Họp Cung Cấp Thông Tin Miễn Phí của USCIS&lt;/strong&gt;&lt;/a&gt;
+                                    &lt;p&gt;U.S Citizenship and Immigration Services agency đưa ra các cuộc họp cung cấp thông tin miễn phí. Những cuộc họp này được mở công khai và bao gồm các thông tin về quy trình nhập tịch.&lt;/p&gt;
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+    <comment>06</comment>
+  </data>
+  <data name="pageFirstAgenciesSectionHeader" xml:space="preserve">
+    <value>Trợ Giúp Pháp Lý &amp; Quyền Công Dân &amp;mdash; Các Cơ Quan Tiểu Bang</value>
+    <comment>03</comment>
+  </data>
+  <data name="pageFirstServicesSectionHeader" xml:space="preserve">
+    <value>Trợ Giúp Pháp Lý &amp;mdash; Các Dịch Vụ</value>
+    <comment>01</comment>
+  </data>
+  <data name="pageIntroText" xml:space="preserve">
+    <value>&lt;h2 class="h3 m-b-0"&gt;Trợ Giúp Pháp Lý&lt;/h2&gt;
+        &lt;p style="font-size: 1.2em;"&gt;California gây quỹ cho các chương trình của các tổ chức tại cộng đồng giúp những người nhập  cư và những người tị nạn sống tại California. Các chương trình này cung cấp nhiều loại dịch vụ pháp lý miễn phí, cũng như thông tin về các dịch vụ khác hỗ trợ cho người nhập cư. Những tổ chức này có thể giúp quý vị biết các quyền của mình. Một số tổ chức có thể đưa ra lời khuyên pháp lý về cách thay đổi tình trạng nhập cư của quý vị.&lt;/p&gt;
+
+        &lt;br style="clear:both;"&gt;
+&lt;h2 class="h3 m-b-0"&gt;Trở Thành Công Dân Hoa Kỳ&lt;/h2&gt;
+        &lt;p style="font-size: 1.2em;"&gt;Nếu quý vị là cư dân thường trú có Thẻ Xanh, quý vị có thể đủ tiêu chuẩn để trở thành công dân Hoa Kỳ thông qua "nhập tịch". Có nhiều quyền lợi cho công dân Hoa Kỳ. Những công dân Hoa Kỳ có quyền bầu cử và tranh cử vào vị trí công. Họ cũng có thể nộp đơn đăng ký hộ chiếu Hoa Kỳ. Chúng tôi khuyến khích quý vị tìm hiểu xem quý vị có đủ tiêu chuẩn để trở thành công dân Hoa Kỳ hay không và tìm hiểu về những gì quý vị cần làm để nộp đơn.&lt;/p&gt;
+        &lt;div class="clearfix"&gt;&lt;br&gt;&lt;/div&gt;</value>
+    <comment>00</comment>
+  </data>
+  <data name="pageSecondAgenciesSectionHeader" xml:space="preserve">
+    <value />
+    <comment>04</comment>
+  </data>
+  <data name="pageSecondServicesSectionHeader" xml:space="preserve">
+    <value>Quyền Công Dân &amp;mdash; Các Dịch Vụ</value>
+    <comment>02</comment>
+  </data>
+</root>

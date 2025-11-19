@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.BrowserTitle = Immigration_Website.Content.Texts.MultiPage.MultiPage.header_AdditionalServices;
+}
+@{
+    ViewBag.PageTitle = Immigration_Website.Content.Texts.MultiPage.MultiPage.header_AdditionalServices;
+}
+
+<script type="text/javascript">
+    var defaultActiveLink = "Home";
+</script>
+
+<div class="section section-default">
+    <div class="container">
+        <div id="servicesListingText">
+            @Html.Partial("~/Views/Shared/ImmigrantGuide/_Spinner.cshtml")
+        </div>
+    </div>
+</div>
+
+<script>
+
+    processJsonData.showServicesList('servicesListingText', '', 'Immigration', '', 's', constantEntityProfileLangCode);
+
+    function toggleCollapseSwapper(thisid) {
+
+        var x = document.getElementById(thisid).getAttribute("class");
+
+        if (x == "ca-gov-icon-plus-fill") {
+            document.getElementById(thisid).className = "ca-gov-icon-minus-fill";
+        }
+        else {
+            document.getElementById(thisid).className = "ca-gov-icon-plus-fill";
+        }
+
+    }
+
+</script>		
+
+

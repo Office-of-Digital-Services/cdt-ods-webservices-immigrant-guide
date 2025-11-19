@@ -1,0 +1,235 @@
+﻿
+<div id="servicesFilteredListingText2">
+    @Html.Partial("~/Views/Shared/ImmigrantGuide/_Spinner.cshtml")
+</div>
+
+<script>
+
+
+     constantGeneralInformation = "General Information";
+     constantHearingImpaired = "Hearing Impaired";
+     constantFax = "Fax";
+     constantContact = "Contact";
+     constantContactUs = "Contact Us";
+     constantWebsite = "Website";
+     constantAgencyDetails = "Agency Details";
+     constantContactAgency = "Contact Agency";
+     constantServiceDetails = "Service Details";
+     constantSeeDetails = "See Details";
+     constantStart = "Start";
+     constantShowFullCard = "false";
+
+
+    function toggleCollapseSwapper(thisid) {
+        var x = document.getElementById(thisid).getAttribute("class");
+
+        if (x == "ca-gov-icon-plus-fill") {
+            document.getElementById(thisid).className = "ca-gov-icon-minus-fill";
+        }
+        else {
+            document.getElementById(thisid).className = "ca-gov-icon-plus-fill";
+        }
+    }
+
+    var imageUrlPrefix = "http://stateentityprofile.ca.gov/Uploads";
+
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            myObj = JSON.parse(this.responseText);
+
+            var textToDisplay = "";
+            var textToDisplayOdd = "";
+            var holderDescription = "";
+            var holderDescription2 = "";
+            var arrayLength = myObj.length;
+
+
+
+            if (constantShowFullCard == "true") {
+                for (var i = 0; i < arrayLength; i++) {
+                    holderDescription = myObj[i].Description;
+                    holderDescription = holderDescription.slice(0, 95) + "...";
+
+                    textToDisplay = textToDisplay + "<div class=\"card card-default\">";
+                    textToDisplay = textToDisplay + "<div class=\"card-block\" id=\"collapse" + myObj[i].ServiceId + "\" itemscope itemtype=\"http://schema.org/Organization\">";
+                    textToDisplay = textToDisplay + "<div class=\"row\">";
+                    textToDisplay = textToDisplay + "<div class=\"col-md-3\">";
+                    textToDisplay = textToDisplay + "<img src=\"" + imageUrlPrefix + "/";
+                    if (myObj[i].ImageUrl) {
+                        textToDisplay = textToDisplay + myObj[i].ImageUrl;
+                    }
+                    else {
+                        textToDisplay = textToDisplay + "service-General.jpg"
+                    }
+                    textToDisplay = textToDisplay + "\" alt=\"" + myObj[i].FriendlyName + "\" class=\"img-responsive\">";
+                    textToDisplay = textToDisplay + "</div>";
+                    textToDisplay = textToDisplay + "<div class=\"col-md-9\">";
+                    textToDisplay = textToDisplay + "<a href=\"" + myObj[i].ServiceUrl + "\" target=\"_blank\" class=\"lead\">" + myObj[i].ServiceName + "</a>";
+                    textToDisplay = textToDisplay + "<div class=\"row\">";
+                    textToDisplay = textToDisplay + "<div class=\"col-md-7\">";
+                    textToDisplay = textToDisplay + "<p itemprop=\"name\">" + myObj[i].FriendlyName + "</p>";
+                    textToDisplay = textToDisplay + "<p itemprop=\"description\">" + holderDescription + "</p>";
+                    textToDisplay = textToDisplay + "<div class=\"collapse collapse" + myObj[i].ServiceId + "\">";
+                    textToDisplay = textToDisplay + "<div class=\"location\" itemscope itemtype=\"http://schema.org/Organization\">";
+                    textToDisplay = textToDisplay + "<meta itemprop=\"name\" content=\"" + myObj[i].FriendlyName + "\">";
+                    textToDisplay = textToDisplay + "<p class=\"other\">";
+                    textToDisplay = textToDisplay + constantGeneralInformation + ":<span itemprop=\"telephone\">" + myObj[i].ContactPhone + "</span><br>";
+                    textToDisplay = textToDisplay + "</p>";
+                    textToDisplay = textToDisplay + "</div>";
+                    textToDisplay = textToDisplay + "</div>";
+                    textToDisplay = textToDisplay + "</div>";
+                    textToDisplay = textToDisplay + "<div class=\"col-md-5\">";
+                    textToDisplay = textToDisplay + "<a href=\"" + myObj[i].ServiceUrl + "\" target=\"_blank\" class=\"btn btn-secondary btn-block btn-sm\">" + constantStart + "</a>";
+                    textToDisplay = textToDisplay + "<a href=\"@Url.Action("Service", "Home")/?Id=" + myObj[i].ServiceId + "\" class=\"btn btn-secondary btn-block btn-sm\">" + constantServiceDetails + "</a>";
+                    textToDisplay = textToDisplay + "<div class=\"collapse collapse" + myObj[i].ServiceId + "\">";
+                    // textToDisplay = textToDisplay + "<a href=\"servicedetails.html?Id="+ myObj[i].ServiceId +"#frequently-asked-questions\" class=\"btn btn-secondary btn-block btn-sm\">FAQ's</a>";
+                    textToDisplay = textToDisplay + "</div>";
+                    textToDisplay = textToDisplay + "</div>";
+                    textToDisplay = textToDisplay + "</div>";
+                    textToDisplay = textToDisplay + "</div>";
+                    textToDisplay = textToDisplay + "</div>";
+                    textToDisplay = textToDisplay + "</div>";
+                    textToDisplay = textToDisplay + "<div class=\"card-block text-center\">";
+                    textToDisplay = textToDisplay + "<a style=\"padding: 10px 5px 5px 5px;text-decoration: none;\" href=\"javascript:toggleCollapseSwapper('toggle-" + myObj[i].ServiceId + "-" + myObj[i].Acronym + "');\" role=\"button\" data-toggle=\"collapse\" data-parent=\"#collapse" + myObj[i].ServiceId + "\" aria-expanded=\"false\" aria-controls=\"collapse" + myObj[i].ServiceId + "\" data-target=\".collapse" + myObj[i].ServiceId + "\">";
+                    textToDisplay = textToDisplay + "<span id=\"toggle-" + myObj[i].ServiceId + "-" + myObj[i].Acronym + "\" style=\"color: #666666; font-size: 24px;\" class=\"ca-gov-icon-plus-fill\"></span><span class=\"sr-only\">Open</span>";
+                    textToDisplay = textToDisplay + "</a>";
+                    textToDisplay = textToDisplay + "</div>";
+                    textToDisplay = textToDisplay + "</div>";
+                }
+            }
+            else {
+                for (var i = 0; i < arrayLength; i++) {
+                    if (i & 1) {
+                        holderDescription = myObj[i].Description;
+                        holderDescription = holderDescription.slice(0, 95) + "...";
+
+                        textToDisplayOdd = textToDisplayOdd + "<div class=\"card card-default\">";
+                        textToDisplayOdd = textToDisplayOdd + "<div class=\"card-block\" id=\"collapse-" + myObj[i].ServiceId + "-" + myObj[i].Acronym + "\" itemscope itemtype=\"http://schema.org/Organization\">";
+                        textToDisplayOdd = textToDisplayOdd + "<div class=\"row\">";
+                        textToDisplayOdd = textToDisplayOdd + "<div class=\"col-md-3\">";
+                        textToDisplayOdd = textToDisplayOdd + "<img src=\"" + imageUrlPrefix + "/";
+                        if (myObj[i].ImageUrl) {
+                            textToDisplayOdd = textToDisplayOdd + myObj[i].ImageUrl;
+                        }
+                        else {
+                            textToDisplayOdd = textToDisplayOdd + "service-General.jpg"
+                        }
+                        textToDisplayOdd = textToDisplayOdd + "\" alt=\"" + myObj[i].FriendlyName + "\" class=\"img-responsive\">";
+                        textToDisplayOdd = textToDisplayOdd + "</div>";
+                        textToDisplayOdd = textToDisplayOdd + "<div class=\"col-md-9\">";
+                        textToDisplayOdd = textToDisplayOdd + "<a href=\"" + myObj[i].ServiceUrl + "\" target=\"_blank\" class=\"lead\">" + myObj[i].ServiceName + "</a>";
+                        textToDisplayOdd = textToDisplayOdd + "<div class=\"row\">";
+                        textToDisplayOdd = textToDisplayOdd + "<div class=\"col-md-8\">";
+                        textToDisplayOdd = textToDisplayOdd + "<p itemprop=\"name\">" + myObj[i].FriendlyName + "</p>";
+                        textToDisplayOdd = textToDisplayOdd + "<p itemprop=\"description\">" + holderDescription + "</p>";
+                        textToDisplayOdd = textToDisplayOdd + "<div class=\"collapse collapse-" + myObj[i].ServiceId + "-" + myObj[i].Acronym + "\">";
+                        textToDisplayOdd = textToDisplayOdd + "<div class=\"location\" itemscope itemtype=\"http://schema.org/Organization\">";
+                        textToDisplayOdd = textToDisplayOdd + "<meta itemprop=\"name\" content=\"" + myObj[i].FriendlyName + "\">";
+                        textToDisplayOdd = textToDisplayOdd + "<p class=\"other\">";
+                        textToDisplayOdd = textToDisplayOdd + constantGeneralInformation + ": <span itemprop=\"telephone\">" + myObj[i].ContactPhone + "</span><br>";
+                        textToDisplayOdd = textToDisplayOdd + "</p>";
+                        textToDisplayOdd = textToDisplayOdd + "</div>";
+                        textToDisplayOdd = textToDisplayOdd + "</div>";
+                        textToDisplayOdd = textToDisplayOdd + "</div>";
+                        textToDisplayOdd = textToDisplayOdd + "<div class=\"col-md-4\">";
+                        textToDisplayOdd = textToDisplayOdd + "<a href=\"" + myObj[i].ServiceUrl + "\" target=\"_blank\" class=\"btn btn-secondary btn-block btn-sm\">" + constantStart + "</a>";
+                        textToDisplayOdd = textToDisplayOdd + "<a href=\"@Url.Action("Service", "Home")/?Id=" + myObj[i].ServiceId + "\" class=\"btn btn-secondary btn-block btn-sm\">" + constantServiceDetails + "</a>";
+                        textToDisplayOdd = textToDisplayOdd + "<div class=\"collapse collapse-" + myObj[i].ServiceId + "-" + myObj[i].Acronym + "\">";
+                        //				textToDisplayOdd = textToDisplayOdd + "<a href=\"servicedetails.html?Id="+  myObj[i].ServiceId +"#frequently-asked-questions\" class=\"btn btn-secondary btn-block btn-sm\">FAQ's</a>";
+                        textToDisplayOdd = textToDisplayOdd + "</div>";
+                        textToDisplayOdd = textToDisplayOdd + "</div>";
+                        textToDisplayOdd = textToDisplayOdd + "</div>";
+                        textToDisplayOdd = textToDisplayOdd + "</div>";
+                        textToDisplayOdd = textToDisplayOdd + "</div>";
+                        textToDisplayOdd = textToDisplayOdd + "</div>";
+                        textToDisplayOdd = textToDisplayOdd + "<div class=\"card-block text-center\">";
+                        textToDisplayOdd = textToDisplayOdd + "<a style=\"padding: 10px 5px 5px 5px;text-decoration: none;\" href=\"javascript:toggleCollapseSwapper('toggle-" + myObj[i].ServiceId + "-" + myObj[i].Acronym + "');\"  role=\"button\" data-toggle=\"collapse\" data-parent=\"#collapse-" + myObj[i].ServiceId + "-" + myObj[i].Acronym + "\" aria-expanded=\"false\" aria-controls=\"collapse-" + myObj[i].ServiceId + "-" + myObj[i].Acronym + "\" data-target=\".collapse-" + myObj[i].ServiceId + "-" + myObj[i].Acronym + "\">";
+                        textToDisplayOdd = textToDisplayOdd + "<span id=\"toggle-" + myObj[i].ServiceId + "-" + myObj[i].Acronym + "\" style=\"color: #666666; font-size: 24px;\" class=\"ca-gov-icon-plus-fill\"></span><span class=\"sr-only\">Open</span>";
+                        textToDisplayOdd = textToDisplayOdd + "</a>";
+                        textToDisplayOdd = textToDisplayOdd + "</div>";
+                        textToDisplayOdd = textToDisplayOdd + "</div>";
+                    }
+                    else {
+                        holderDescription = myObj[i].Description;
+                        holderDescription = holderDescription.slice(0, 95) + "...";
+
+                        textToDisplay = textToDisplay + "<div class=\"card card-default\">";
+                        textToDisplay = textToDisplay + "<div class=\"card-block\" id=\"collapse" + myObj[i].ServiceId + "\" itemscope itemtype=\"http://schema.org/Organization\">";
+                        textToDisplay = textToDisplay + "<div class=\"row\">";
+                        textToDisplay = textToDisplay + "<div class=\"col-md-3\">";
+                        textToDisplay = textToDisplay + "<img src=\"" + imageUrlPrefix + "/";
+                        if (myObj[i].ImageUrl) {
+                            textToDisplay = textToDisplay + myObj[i].ImageUrl;
+                        }
+                        else {
+                            textToDisplay = textToDisplay + "service-General.jpg"
+                        }
+                        textToDisplay = textToDisplay + "\" alt=\"" + myObj[i].FriendlyName + "\" class=\"img-responsive\">";
+                        textToDisplay = textToDisplay + "</div>";
+                        textToDisplay = textToDisplay + "<div class=\"col-md-9\">";
+                        textToDisplay = textToDisplay + "<a href=\"" + myObj[i].ServiceUrl + "\" target=\"_blank\" class=\"lead\">" + myObj[i].ServiceName + "</a>";
+                        textToDisplay = textToDisplay + "<div class=\"row\">";
+                        textToDisplay = textToDisplay + "<div class=\"col-md-8\">";
+                        textToDisplay = textToDisplay + "<p itemprop=\"name\">" + myObj[i].FriendlyName + "</p>";
+                        textToDisplay = textToDisplay + "<p itemprop=\"description\">" + holderDescription + "</p>";
+                        textToDisplay = textToDisplay + "<div class=\"collapse collapse" + myObj[i].ServiceId + "\">";
+                        textToDisplay = textToDisplay + "<div class=\"location\" itemscope itemtype=\"http://schema.org/Organization\">";
+                        textToDisplay = textToDisplay + "<meta itemprop=\"name\" content=\"" + myObj[i].FriendlyName + "\">";
+                        textToDisplay = textToDisplay + "<p class=\"other\">";
+                        textToDisplay = textToDisplay + constantGeneralInformation + ":<span itemprop=\"telephone\">" + myObj[i].ContactPhone + "</span><br>";
+                        textToDisplay = textToDisplay + "</p>";
+                        textToDisplay = textToDisplay + "</div>";
+                        textToDisplay = textToDisplay + "</div>";
+                        textToDisplay = textToDisplay + "</div>";
+                        textToDisplay = textToDisplay + "<div class=\"col-md-4\">";
+                        textToDisplay = textToDisplay + "<a href=\"" + myObj[i].ServiceUrl + "\" target=\"_blank\" class=\"btn btn-secondary btn-block btn-sm\">" + constantStart + "</a>";
+                        textToDisplay = textToDisplay + "<a href=\"@Url.Action("Service", "Home")/?Id=" + myObj[i].ServiceId + "\" class=\"btn btn-secondary btn-block btn-sm\">" + constantServiceDetails + "</a>";
+                        textToDisplay = textToDisplay + "<div class=\"collapse collapse" + myObj[i].ServiceId + "\">";
+                        // textToDisplay = textToDisplay + "<a href=\"servicedetails.html?Id="+ myObj[i].ServiceId +"#frequently-asked-questions\" class=\"btn btn-secondary btn-block btn-sm\">FAQ's</a>";
+                        textToDisplay = textToDisplay + "</div>";
+                        textToDisplay = textToDisplay + "</div>";
+                        textToDisplay = textToDisplay + "</div>";
+                        textToDisplay = textToDisplay + "</div>";
+                        textToDisplay = textToDisplay + "</div>";
+                        textToDisplay = textToDisplay + "</div>";
+                        textToDisplay = textToDisplay + "<div class=\"card-block text-center\">";
+                        textToDisplay = textToDisplay + "<a style=\"padding: 10px 5px 5px 5px;text-decoration: none;\" href=\"javascript:toggleCollapseSwapper('toggle-" + myObj[i].ServiceId + "-" + myObj[i].Acronym + "');\" role=\"button\" data-toggle=\"collapse\" data-parent=\"#collapse" + myObj[i].ServiceId + "\" aria-expanded=\"false\" aria-controls=\"collapse" + myObj[i].ServiceId + "\" data-target=\".collapse" + myObj[i].ServiceId + "\">";
+                        textToDisplay = textToDisplay + "<span id=\"toggle-" + myObj[i].ServiceId + "-" + myObj[i].Acronym + "\" style=\"color: #666666; font-size: 24px;\" class=\"ca-gov-icon-plus-fill\"></span><span class=\"sr-only\">Open</span>";
+                        textToDisplay = textToDisplay + "</a>";
+                        textToDisplay = textToDisplay + "</div>";
+                        textToDisplay = textToDisplay + "</div>";
+                    }
+            }
+            }
+
+            var displayText = "";
+
+            if (constantShowFullCard == "true") {
+                displayText = displayText + "<div class=\"row\">";
+                displayText = displayText + "<div class=\"full\">";
+                displayText = displayText + textToDisplay;
+                displayText = displayText + "</div>";
+                displayText = displayText + "</div>";
+            }
+            else {
+                displayText = displayText + "<div class=\"row\">";
+                displayText = displayText + "<div class=\"half\">";
+                displayText = displayText + "<p id=\"agencyLeft\">";
+                displayText = displayText + textToDisplay;
+                displayText = displayText + "</p>";
+                displayText = displayText + "</div>";
+                displayText = displayText + "<div class=\"half\">";
+                displayText = displayText + "<p id=\"agencyRight\">";
+                displayText = displayText + textToDisplayOdd;
+                displayText = displayText + "</p>";
+                displayText = displayText + "</div>";
+                displayText = displayText + "</div>";
+            }
+        }
+        document.getElementById("servicesFilteredListingText2").innerHTML = displayText;
+    };
+    xmlhttp.open("GET", constantAPILocation + "?PrimaryFilter=Immigration&SecondaryFilter=" + secondServicesSubset + "&AgencyOrService=s&lang=en", true);
+    xmlhttp.send();
+
+</script>

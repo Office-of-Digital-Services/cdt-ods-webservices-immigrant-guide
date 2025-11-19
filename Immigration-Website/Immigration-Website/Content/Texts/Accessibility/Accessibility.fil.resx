@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="browserTitle" xml:space="preserve">
+    <value>Aksesibilidad</value>
+    <comment>00</comment>
+  </data>
+  <data name="pageText" xml:space="preserve">
+    <value>&lt;p&gt;
+            Ang mga pahinang gawa ng Estado ng California ay alinsunod sa kodigo ng pamahalaan ng California 7405. Inaatas ng Seksiyon 7405 na lahat ng elektroniko at pang-impormasyong teknolohiyang ginawa o binili ng pamahalaan ng Estado ng California ay maa-access ng mga taong may kapansanan. May iba't ibang uri ng pisikal na kapansanan na nakakaapekto sa pakikipag-ugnayan ng gumagamit sa web. Ang kawalan ng paningin, kawalan ng pagdinig, limitadong pag-gamit ng kamay, at kahirapan ng pag-unawa ay mga halimbawa na ang bawat isa ay may kapansanan at nangangailangan nang iba’t ibang epektibong paraan kung paano makaka-access ng elektronikong impormasyon. Ang layunin nito ay para makapagbigay ng makabuluhan at produktibong karanasan sa sa lahat ng mga gumagamit sa website.			
+			&lt;br /&gt;&lt;br /&gt;
+            Ang wikang ito ay nasa kodigong pambatasan Seksiyon 7405, epektibo mula 1/1/17.			
+        &lt;/p&gt;
+		
+        &lt;h2&gt;Ilang mga katangian ng aksesibilidad&lt;/h2&gt;
+		
+        &lt;p&gt;Eto ang mga listahan ng ilang teknolohiyang solusyon na ginagamit para maging mas-madaling mani-ubra, mas madaling mabuo, at maging mas-aksesibol ang mga pahina sa website.&lt;/p&gt;
+        
+		&lt;h3&gt;Mga Litrato/Imahe:&lt;/h3&gt;
+		
+        &lt;p&gt;Pag-gamit ng Alternatibong titulo "ALT" o "TITLE" na katangian ng litrato. Ang ALT/TITLE ay katangian na nagsasalarawan ng mga imahe at ito ay madaling mabasa sa monitor at makita kapag ang mouse ay ipinatong sa imahe. Kapakipakinabang din ito sa mga tao, na imbes na ipakita ang mga imahe sa kanilang browser, ay magsasalarawan ng imahe kung saan dapat naroon ang imahe.&lt;/p&gt;
+		
+        &lt;h2&gt;Mga gabay sa Web Content Accessibility Guidelines (WCAG) 2.0 Lebel AA&lt;/h2&gt;
+		
+        &lt;p&gt;Ang mga pahina ay ayong sa gabay ng WCAG 2.2 AA at base sa mga mabuting katangian na ginawa ng World Wide Web Consortium. Ito ay naka-ayos at sumasailalim base sa apat na prinsipyo:&lt;/p&gt;
+		
+        &lt;h3&gt;Madaling magpakita: &lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Para magbigay ng mga alternatibong eksplanasyon at kasulatan sa mga bahaging hindi nakasulat. &lt;/li&gt;
+            &lt;li&gt;Para magbigay ng mga paliwanag sa mga iba't ibang uri ng imhen o pelikula. &lt;/li&gt;
+            &lt;li&gt;Para lumikha ng makabuluhang pag-sasalarawan sa kakaibang paraan, sa pag-gamit ng teknolohiya, at sa mensaheng hindi nawawalan ng kahulugan. &lt;/li&gt;
+            &lt;li&gt;Para padaliin ang pagkita at pagdinig ng mga nilalaman o mensahe. &lt;/li&gt;
+        &lt;/ul&gt;
+		 
+        &lt;h3&gt;Mapapagana: &lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Para maging aksesibol ang lahat ng mga komponent gamit ang keyboard. &lt;/li&gt;
+            &lt;li&gt;Para bigyan ng sapat na oras para basahin at gamitin ang nilalaman o mensahe. &lt;/li&gt;
+            &lt;li&gt;Para hindi gumamit ng komponent na nagdudulot ng pangingisay. &lt;/li&gt;
+            &lt;li&gt;Para tulungan ang mga gumagamit na magnabiga at makahanap ng nilalaman. &lt;/li&gt;
+        &lt;/ul&gt;
+		 
+        &lt;h3&gt;Mauunawaan: &lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Para madaling mabasa at mauunawaan ang kasulatan. &lt;/li&gt;
+            &lt;li&gt;Para palabasin at paganahin ang mga nilalaman sa paraan na makabuluhan. &lt;/li&gt;
+            &lt;li&gt;Para tulungang hindi magkamalit at maitama ang mga mali. &lt;/li&gt;
+        &lt;/ul&gt;
+		 
+        &lt;h3&gt;Matatag: &lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Para maging kompatibol sa kasalukuyan at pangkinabukasang komponent &lt;/li&gt;
+        &lt;/ul&gt;
+		
+		&lt;p&gt;Ang mga karagdagang ito ay nagpapahusay ng aksesibilidad at kakayahang magamit ang website para sa ikabubuti ng lahat ng gumagamit nito.&lt;/p&gt;</value>
+    <comment>02</comment>
+  </data>
+  <data name="pageTitle" xml:space="preserve">
+    <value>Aksesibilidad</value>
+    <comment>01</comment>
+  </data>
+</root>

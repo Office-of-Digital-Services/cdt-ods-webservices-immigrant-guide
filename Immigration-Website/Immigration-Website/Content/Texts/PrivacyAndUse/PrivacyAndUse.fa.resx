@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="browserTitle" xml:space="preserve">
+    <value>شرایط کاربری / سیاست حفظ محرمانگی</value>
+    <comment>00</comment>
+  </data>
+  <data name="pageText" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;تاریخ اجرا: از 07/10/2017 &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;سپاسگزاریم از اینکه ازCalifornia’s Immigrant Guide  (راهنمای مهاجرین کالیفرنیا) و بررسی سیاست های ما دیدن می کنید. لطفاً توجه داشته باشید که این سیاست بدون اطلاع قبلی می تواند تغییر داده شود، و روش های کسب و کار کنونی ایالت را منعکس می کند. این سیاست مورخ 10 ژوئیه 2017 است. ایالت California  همچنین یک سیاست حفظ محرمانگی در وب‌سایت خود به نشانی &lt;a href="https://www.ca.gov/use/"&gt;CA.gov&lt;/a&gt; دارد. &lt;/p&gt;
+
+&lt;h2 class="h3"&gt;اطلاعات شخصی &lt;/h2&gt;
+
+&lt;p&gt;ایالت California متعهد به ترفیع و حمایت حقوق مربوط به حفظ محرمانگی افراد، همانگونه که در ماده 1 قانون اساسی، California Information Practices Act of 1977 (قانون مربوط به روش های اطلاعات مورخ سال 1977) آمده است، و سایر قوانین ایالتی و فدرال است. &lt;/p&gt;
+
+&lt;h3 class="h4"&gt;در چه زمانی گردآوری می شود و چگونه مورد استفاده قرار می گیرد&lt;/h3&gt;
+
+&lt;p&gt;این وب‌سایت به صورت خودکارنام دامنه یا آدرس پروتکل اینترنت که مرتبط به کاربرد دستگاه مربوطه جهت دسترسی به سایت، نوع مرورگر و سیستم عامل مورد استفاده، تاریخ و زمان استفاده از وب‌سایت، و صفحات نمایش وب است، را گردآوری می کند. ما آدرس های منزل، آدرس های محل کار یا ایمیل، یا اطلاعات مربوط به حساب را از افرادی که صرفاً از این وب‌سایت اینترنتی بازدید می کنند گردآوری نمی کنیم. تحت 
+Public Records Act (قانون رکوردها یا پرونده های عمومی)، گردآوری الکترونیک اطلاعات شخصی از افشاء معاف می باشد. &lt;/p&gt;
+
+&lt;h1 id="conditions"&gt;شرایط کاربری &lt;/h1&gt;
+
+&lt;h2 class="h3"&gt;محتوای ترجمه شده &lt;/h2&gt;
+
+&lt;p&gt;در این وب‌سایت، ما برای ترجمه محتوای انگلیسی به چندین زبان که در California صحبت می شود از خدمات حرفه ای ترجمه شخص ثالث استفاده کرده ایم. با وجود اینکه تمامی تلاش ها را بخرج دادیم تا ترجمه ای دقیق ارائه دهیم، California Department of Technology  
+(بخش فناوری کالیفرنیا) نمی تواند صحت کامل آنرا تضمین نماید. &lt;/p&gt;
+
+&lt;h2 class="h3"&gt;لینک ها به وب‌سایت های دیگر &lt;/h2&gt;
+
+&lt;p&gt;وب‌سایت ما لینک هایی به وب سایت هایی دارد که ممکن است مفید باشند و/یا خدماتی را ارائه دهند. کلیک کردن روی محتوای این وب‌سایت ها خارج ازCalifornia Immigrant Guide  موجب می شود که محتوای لینک شده در یک مرورگر یا پنجره جدید باز شود. هنگامی که برای مشاهده محتوا در یک سایت دیگر روی لینک وب‌سایت ها کلیک می کنید، شما دیگر در صفحه California Immigrant Guide  نیستید و تابع سیاست های حفظ محرمانگی آن سایت جدید خواهید بود. &lt;/p&gt;
+
+&lt;h3 class="h4"&gt;خدمات مرتبط &lt;/h3&gt;
+
+&lt;p&gt;تمامی خدمات ترفیع شده در این سایت به واسطه آژانس ها و بخش های ایالت California، از طریق پیمانکاران ایالت، یا توسط سازمان هایی که جهت ارائه خدمات مشروح با ایالت California مشارکت می کنند ارائه شده است. &lt;/p&gt;
+
+&lt;h3 class="h4"&gt;آژانس های ایالتی و بخش ها &lt;/h3&gt;
+
+&lt;p&gt;خدمات موجود بین آژانس ها و بخش های ترفیع شده در این سایت متفاوت هستند. هر آژانس و بخش در ایالت California ممکن است سیاست های حفظ محرمانگی اضافی مختص به موضوع خود را داشته باشد. ما شما را تشویق می کنیم که به هنگام دسترسی به این سایت های اضافی در ایالت  California، آن سیاست ها را مرور نمایید. &lt;/p&gt;</value>
+    <comment>02</comment>
+  </data>
+  <data name="pageTitle" xml:space="preserve">
+    <value>سیاست حفظ محرمانگی</value>
+    <comment>01</comment>
+  </data>
+</root>

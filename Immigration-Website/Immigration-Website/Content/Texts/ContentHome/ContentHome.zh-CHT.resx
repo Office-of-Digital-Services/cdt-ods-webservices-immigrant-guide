@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="blackBar_FeaturedServices" xml:space="preserve">
+    <value>特色服務</value>
+    <comment>11</comment>
+  </data>
+  <data name="blackBar_MoreServices" xml:space="preserve">
+    <value>查看更多</value>
+    <comment>12</comment>
+  </data>
+  <data name="browserTitle" xml:space="preserve">
+    <value>網站</value>
+    <comment>00</comment>
+  </data>
+  <data name="counter_1_Number" xml:space="preserve">
+    <value>27</value>
+    <comment>31</comment>
+  </data>
+  <data name="counter_1_Text" xml:space="preserve">
+    <value>2011 年到 2015 年間生活在加州的人中有27% 出生於國外</value>
+    <comment>31b</comment>
+  </data>
+  <data name="counter_1_Unit" xml:space="preserve">
+    <value>&lt;span class="unit"&gt;%&lt;/span&gt;</value>
+    <comment>31a</comment>
+  </data>
+  <data name="counter_2_Number" xml:space="preserve">
+    <value>715</value>
+    <comment>32</comment>
+  </data>
+  <data name="counter_2_Text" xml:space="preserve">
+    <value>全國 GDP 有7150 億 美元由移民貢獻</value>
+    <comment>32b</comment>
+  </data>
+  <data name="counter_2_Unit" xml:space="preserve">
+    <value>&lt;span class="unit" style="font-size:.5em;"&gt;十億&lt;/span&gt;</value>
+    <comment>32a</comment>
+  </data>
+  <data name="counter_3_Number" xml:space="preserve">
+    <value>36</value>
+    <comment>33</comment>
+  </data>
+  <data name="counter_3_Text" xml:space="preserve">
+    <value>36% 的全國小企業主為移民</value>
+    <comment>33b</comment>
+  </data>
+  <data name="counter_3_Unit" xml:space="preserve">
+    <value>&lt;span class="unit"&gt;%&lt;/span&gt;</value>
+    <comment>33a</comment>
+  </data>
+  <data name="counter_4_Number" xml:space="preserve">
+    <value>5.6</value>
+    <comment>34</comment>
+  </data>
+  <data name="counter_4_Text" xml:space="preserve">
+    <value>在加州有560 萬 移民于 2004 年到 2014 年間入籍為美國公民</value>
+    <comment>34b</comment>
+  </data>
+  <data name="counter_4_Unit" xml:space="preserve">
+    <value>&lt;span class="unit" style="font-size:.5em;"&gt;一百萬&lt;/span&gt;</value>
+    <comment>34a</comment>
+  </data>
+  <data name="greenBox_LegalHelpAndCitizenship" xml:space="preserve">
+    <value>公民身份與法律幫助</value>
+    <comment>05</comment>
+  </data>
+  <data name="greenBox_Education" xml:space="preserve">
+    <value>教育</value>
+    <comment>04</comment>
+  </data>
+  <data name="greenBox_FindJobsAndTraining" xml:space="preserve">
+    <value>求職與培訓</value>
+    <comment>03</comment>
+  </data>
+  <data name="greenBox_LearnEnglish" xml:space="preserve">
+    <value>學習英語</value>
+    <comment>02</comment>
+  </data>
+  <data name="resources_Title" xml:space="preserve">
+    <value>其他資源</value>
+    <comment>40</comment>
+  </data>
+  <data name="resource_1_Text" xml:space="preserve">
+    <value>司法部&lt;br /&gt;移民服務辦公室</value>
+    <comment>41</comment>
+  </data>
+  <data name="resource_2_Text" xml:space="preserve">
+    <value>加州法院&lt;br /&gt;移民法律援助</value>
+    <comment>42</comment>
+  </data>
+  <data name="resource_3_Text" xml:space="preserve">
+    <value>加州法院&lt;br /&gt;家庭和兒童</value>
+    <comment>43</comment>
+  </data>
+  <data name="resource_4_Text" xml:space="preserve">
+    <value>加州法院&lt;br /&gt;移民基本信息</value>
+    <comment>44</comment>
+  </data>
+  <data name="welcome_Text" xml:space="preserve">
+    <value>California(加州)是全世界很多新來者的所在地。California 的創新服務能夠幫助移民成為我們州社會、經濟與民事組織的一部分。本網站提供的服務能夠幫助移民在通往民族融合的道路上實現興旺與成功。需要在英語語言學習、勞動力技能發展、入籍準備或法律援助方面獲得幫助的移民，可在遍及全州的服務機構獲取信息。移民指南是一座幫助移民全面融入加州生活的橋樑。歡迎訪問移民指南。</value>
+    <comment>22</comment>
+  </data>
+  <data name="welcome_Title" xml:space="preserve">
+    <value>歡迎訪問移民指南</value>
+    <comment>21</comment>
+  </data>
+  <data name="greenBox_WelcomeToCalifornia" xml:space="preserve">
+    <value>&lt;h1 id="welcome_" style="text-align: center; color: azure; "&gt;歡迎來到加州&lt;/h1&gt;</value>
+    <comment>01</comment>
+  </data>
+</root>

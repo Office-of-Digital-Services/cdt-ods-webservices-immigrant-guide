@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="browserTitle" xml:space="preserve">
+    <value>Մատչելիությունը</value>
+    <comment>00</comment>
+  </data>
+  <data name="pageText" xml:space="preserve">
+    <value>&lt;p&gt;California նահանգի կայքը պատրաստվել է «California-ի Կառավարական օրենսգրքի» 7405-րդ բաժնի պահանջների համաձայն: Օրենսգրքի 7405-րդ բաժինը պահանջում է, որ California նահանգի կառավարության կողմից ստեղծվող կամ ձեռք բերվող բոլոր էլեկտրոնային և տեղեկատվական տեխնոլոգիաները հաշմանդամություն ունեցող անձանց համար մատչելի լինեն: Ֆիզիկական հաշմանդամության տարբեր տեսակներ կան, որոնք ազդում են համացանցից օգտվելու կարողության վրա: Դրա մի քանի օրինակներ են տեսողության կորուստը, լսողության կորուստը, մատներն օգտագործելու սահմանափակ հնարավորությունը և մտավոր անկարողությունը, որոնցից յուրաքանչյուրը տարբեր միջոց է պահանջում` արդյունավետ կերպով էլեկտրոնային տեղեկություններից օգտվելու համար: Մեր նպատակն է կարևոր և օգտակար տեղեկատվական գործիք տրամադրել մեր կայքի բոլոր այցելուներին:
+&lt;br /&gt;&lt;br /&gt;
+
+Այս լեզուն 1/1/17-ից ընդգրկված է Gov. Code S. 7405-ում:
+
+&lt;/p&gt;
+
+&lt;h2&gt;Մատչելիությունն ապահովող միջոցները&lt;/h2&gt;
+
+&lt;p&gt;Ստորև նշված են մեր կողմից կիրառված որոշ տեխնիկական լուծումներ, որոնք մեր կայքը հեշտ նավարկելի, արագաշարժ և մատչելի են դարձնում:&lt;/p&gt;
+
+&lt;h3&gt;Լուսանկարները/պատկերները&lt;/h3&gt;
+
+&lt;p&gt;Օգտագործված են այլընտրանքային տեքստի «ALT» և/կամ «TITLE» հատկանիշները: ALT/TITLE հատկանիշները ցույց են տալիս պատկերի գրավոր նկարագրությունը, որը կարելի է կարդալ` մկնիկը պատկերի վրա պահելով: Դա օգտակար է նաև այն անձանց համար, որոնք անջատել են պատկերների ցուցադրումն իրենց դիտարկիչի (բրաուզերի) վրա, և այդ դեպքում նրանց էկրանին պատկերի տեղը դրա նկարագրությունը կցուցադրվի:&lt;/p&gt;
+
+&lt;h2&gt;Համացանցի բովանդակության մատչելիության սկզբունքները (WCAG) 2.0-րդ AA մակարդակ&lt;/h2&gt;
+
+&lt;p&gt;Կայքը կառուցված է WCAG 2.0 AA-ի սկզբունքների և «World Wide Web Consortium»-ի կողմից մշակված «Հաջողության չափանիշների» պահանջների համաձայն: Դրանք կազմակերպված են հետևյալ սկզբունքներով.&lt;/p&gt;
+
+
+&lt;h3&gt;Ընկալելի`&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ոչ-տեքստային տարրերի համար տեքստային այլընտրանք տրամադրել:&lt;/li&gt;
+&lt;li&gt;Խորագրեր և ուրիշ այլընտրանքներ տրամադրել մուլտիմեդիայի համար:&lt;/li&gt;
+&lt;li&gt;Այնպիսի բովանդակություն գործածել, որը կարելի է, առանց կորստի, ներկայացնել տարբեր եղանակներով, այդ թվում` հատուկ պահանջներ ունեցող անձանց համար նախատեսված սարքերի օգնությամբ:&lt;/li&gt;
+&lt;li&gt;Օգտվողների համար առավել դյուրին դարձնել բովանդակությունը տեսնելը կամ լսելը:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Գործածելի`&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Բոլոր գործողությունները ստեղնաշարի օգնությամբ կատարելու հնարավորություն տալ օգտվողին:&lt;/li&gt;
+&lt;li&gt;Բավարար ժամանակ տալ բովանդակությունը կարդալու և պահանջվող գործողությունը կատարելու համար:&lt;/li&gt;
+&lt;li&gt;Էպիլեպտիկ նոպա առաջացնող նյութեր չօգտագործել։&lt;/li&gt;
+&lt;li&gt;Օգտվողներին օգնել կայքում շրջել և գտնել անհրաժեշտ նյութերը։&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Հասկանալի`&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Տեքստը պետք է ընթեռնելի և հասկանալի լինի:&lt;/li&gt;
+&lt;li&gt;Կայքի տարրերը պետք է կանխատեսելի տեղերում գտնվեն և կանխատեսելի գործառույթներ ունենան:&lt;/li&gt;
+&lt;li&gt;Օգտվողներին օգնել խուսափել սխալներից կամ ուղղել դրանք:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Դիմակայուն`&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Կայքի տարրերն առավելագույնս համատեղելի դարձնել օգտվողների կիրառած ներկա և ապագա գործիքների հետ:&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Այս լրացուցիչ միջոցները մեր կայքն ավելի հասանելի ու բովանդակալից են դարձնում մեր այցելուների համար` լիարժեք կերպով մատչելի կայք և նյութեր ստեղծելով բոլորի համար:&lt;/p&gt;</value>
+    <comment>02</comment>
+  </data>
+  <data name="pageTitle" xml:space="preserve">
+    <value>Մատչելիությունը</value>
+    <comment>01</comment>
+  </data>
+</root>

@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.BrowserTitle = Immigration_Website.Content.Texts.MultiPage.MultiPage.nav_LearnEnglish;
+}
+@{
+    ViewBag.PageTitle = Immigration_Website.Content.Texts.MultiPage.MultiPage.nav_LearnEnglish;
+}
+<script type="text/javascript">
+  var defaultActiveLink = "Learn English";
+</script>
+
+<div class="section">
+    <div class="container">
+        <img src="~/Content/images/learnenglish.jpg" style="float: left; padding: 0px 20px 15px 0px; width: 350px;" alt="Introduction Image" />
+        @Html.Raw(Immigration_Website.Content.Texts.LearnEnglish.Content.pageIntroText)
+    </div>
+</div>
+
+<div class="section section-default">
+    <div class="container">
+        <h2 id="servicesSubset">@Html.Raw(Immigration_Website.Content.Texts.LearnEnglish.Content.pageFirstServicesSectionHeader)</h2>
+        <script>var servicesSubset = "Learn English" </script>
+        @Html.Partial("~/Views/Shared/ImmigrantGuide/_SubsetOfServices.cshtml")
+    </div>
+</div>
+
+<div class="section">
+    <div class="container">
+        <h2>@Html.Raw(Immigration_Website.Content.Texts.LearnEnglish.Content.pageAdditionalResoucesHeader)</h2>
+        @Html.Raw(Immigration_Website.Content.Texts.LearnEnglish.Content.pageAdditionalResoucesLinks)
+    </div>
+</div>
+
+<div class="section section-understated">
+    <div class="container">
+        <h2 id="servicesSubset">@Html.Raw(Immigration_Website.Content.Texts.LearnEnglish.Content.pageFirstAgenciesSectionHeader)</h2>
+        @Html.Partial("~/Views/Shared/ImmigrantGuide/_SubsetOfAgencies.cshtml")
+    </div>
+</div>

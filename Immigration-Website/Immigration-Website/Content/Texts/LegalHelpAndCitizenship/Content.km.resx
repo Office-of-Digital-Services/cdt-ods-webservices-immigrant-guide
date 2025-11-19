@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pageAdditionalResoucesHeader" xml:space="preserve">
+    <value>ជំនួយផ្នែក​ផ្លូវ​ច្បាប់ និង​សញ្ជាតិ  &amp;mdash;  ធនធាននានា</value>
+    <comment>05</comment>
+  </data>
+  <data name="pageAdditionalResoucesLinks" xml:space="preserve">
+    <value>&lt;div class="group"&gt;
+                &lt;div class="half"&gt;
+                    &lt;div class="media"&gt;
+                        &lt;div class="media-body"&gt;
+
+                            &lt;ul class="list-standout"&gt;
+                                &lt;li&gt;
+                                    &lt;a href="https://www.uscis.gov/greencard" target="_blank"&gt;&lt;strong&gt;ស្វែងយល់អំពី​ការទទួលបាន​ប័​ណ្ណ​បៃតង&lt;/strong&gt;&lt;/a&gt;
+                                    &lt;p&gt;ទីភ្នាក់ងារ​សេវា​អន្តោ​ប្រវេសន៍និង​សញ្ជាតិ​​​អាមេរិក ផ្តល់ព័ត៌មាន​សម្រាប់​ការក្លាយ​ខ្លួន​ជា​​អ្នករស់​នៅសហរដ្ឋ​អាមេរិកជា​អចិន្ត្រៃយ៍។​​&lt;/p&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="https://www.uscis.gov/citizenship/learners/study-test" target="_blank"&gt;&lt;strong&gt;សិក្សាសម្រាប់ការធ្វើតេស្ត​ស្តីពី​សញ្ជាតិអាមេរិក&lt;/strong&gt;&lt;/a&gt;
+                                    &lt;p&gt;ភ្នាក់ងារ​សេវា​អន្តោ​ប្រវេសន៍និង​សញ្ជាតិអាមេរិក ផ្តល់ព័ត៌មាន​​ស្តីពី​ការ​ធ្វើតេស្ត​ដែល​បានកំណត់​សម្រាប់​ការចូលសញ្ជាតិអាមេរិក។​&lt;/p&gt;
+                                &lt;/li&gt;
+
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="half"&gt;
+                    &lt;div class="media"&gt;
+
+                        &lt;div class="media-body"&gt;
+
+                            &lt;ul class="list-standout"&gt;
+                                &lt;li&gt;
+                                    &lt;a href="https://www.uscis.gov/citizenship/other-languages" target="_blank"&gt;&lt;strong&gt;សំណួរស្តីពី​សញ្ជាតិដែលបានបកប្រែ&lt;/strong&gt;&lt;/a&gt;
+                                    &lt;p&gt;ភ្នាក់ងារ​សេវា​អន្តោ​ប្រវេសន៍និង​សញ្ជាតិអាមេរិក ផ្តល់ជូន​ការបក​ប្រែ​​សំណួរ​​ដែល​បានចោទសួរ​អំឡុងពេលនៃ​ការ​សម្ភាស​ស្តីពីការ​ចូល​សញ្ជាតិ។​&lt;/p&gt;
+                                &lt;/li&gt;
+
+                                &lt;li&gt;
+                                    &lt;a href="https://www.uscis.gov/citizenship/apply-for-citizenship/free-naturalization-information-sessions" target="_blank"&gt;&lt;strong&gt;ជំនួប​​នានា​ស្តីពី​ព័ត៌មាន​ USCIS ដោយ​ឥតគិតថ្លៃ&lt;/strong&gt;&lt;/a&gt;
+                                    &lt;p&gt;ភ្នាក់ងារ​សេវាអន្តោប្រវេស​ន៍​និងសញ្ជាតិ​អាមេរិក​ ផ្តល់​ជូននូវ​ជំនួបនានា​​ស្តីពី​ព័ត៌មាន​ដោយ​ឥត​គិតថ្លៃ។​​ ជំនួប​ទាំងនេះ​ធ្វើ​ឡើង​សម្រាប់​សាធារណៈជន​ រួម​ទាំង​ព័ត៌មាន​ស្តីពី​នីតិ​វិធី​ក្នុង​ការចូលសញ្ជាតិផងដែរ​។​&lt;/p&gt;
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+    <comment>06</comment>
+  </data>
+  <data name="pageFirstAgenciesSectionHeader" xml:space="preserve">
+    <value>ជំនួយ​ផ្នែកផ្លូវ​ច្បាប់ និង​សញ្ជាតិ​  &amp;mdash;  ទីភ្នាក់ងារនានា​​របស់រដ្ឋ​</value>
+    <comment>03</comment>
+  </data>
+  <data name="pageFirstServicesSectionHeader" xml:space="preserve">
+    <value>សេវាស្តីពី​ជំនួយ​ផ្នែកផ្លូវ​ច្បាប់​</value>
+    <comment>01</comment>
+  </data>
+  <data name="pageIntroText" xml:space="preserve">
+    <value>&lt;h2 class="h3 m-b-0"&gt;ជំនួយផ្លូវ​ច្បាប់​&lt;/h2&gt;
+        &lt;p style="font-size: 1.2em;"&gt;រដ្ឋ​ California ផ្តល់​មូលនិធិ​ដល់កម្មវិធី​នានា តាម​រយៈ​អង្គការមួយ​ចំនួន​​នៅតាម​សហគមន៍​ ដែល​ជួយដល់​ជនអន្តោ​ប្រវេសន៍​ និង​ជន​ភៀសខ្លួនដែលរស់​នៅ​ក្នុង​រដ្ឋ​ California។​​ កម្មវិធី​នេះ​ផ្តល់ជូន​នូវ​ប្រភេទ​សេវាកម្ម​ជា​ច្រើន​​ផ្នែកផ្លូវ​ច្បាប់​ដោយ​ឥត​គិតថ្លៃ ព្រម​ទាំង​​ព័ត៌​មាន​អំពីសេវាកម្ម​ដទៃ​ផ្សេងទៀត​ ដែល​គាំ​ទ្រ​ដល់​ជនអន្តោ​ប្រវេសន៍​។​ អង្គការ​ទាំងនេះ​អាច​បង្រៀនអ្នក​អំពីសិទ្ធិ​របស់​អ្នក​។​ អង្គការ​ខ្លះ​អាចផ្តល់​ការប្រឹក្សា​យោបល់​ផ្នែកផ្លូវ​ច្បាប់​ស្តីពី​របៀបក្នុង​ផ្លាស់ប្តូរ​ស្ថានភាព​​​អន្តោ​ប្រវេសន៍​របស់​អ្នក​​។​ &lt;/p&gt;
+
+        &lt;br style="clear:both;"&gt;
+&lt;h2 class="h3 m-b-0"&gt;ក្លាយ​ជា​ពល​រដ្ឋ​​អាមេរិក&lt;/h2&gt;
+        &lt;p style="font-size: 1.2em;"&gt;​ប្រ​សិន​បើ​អ្នក​ជា​អ្នករស់នៅអចិន្ត្រៃយ៍​​មាន​ប័ណ្ណបៃ​តង (Green Card)​ អ្នក​អាច​មាន​​លក្ខណៈ​សម្បត្តិ​គ្រប់គ្រាន់​ក្នុង​ការទទួល​បាន​សញ្ជាតិ​​​អាមេរិក​តាមរយៈ​ "សញ្ជាតូប​​នីយកម្ម" ​។​ មាន​អត្ថប្រយោជន៍​ជាច្រើន​សម្រាប់ការ​ចូល​​សញ្ជាតិ​​​​​អាមេរិក។​​ ពលរដ្ឋ​អាមេរិកមាន​សិទ្ធិ​បោះឆ្នោត​ និង​ឈរឈ្មោះ​សម្រាប់ការិយាល័យ​សាធារណៈ។​ ពួកគេ​អាច​ដាក់​ពាក្យសុំ​លិខិត​ឆ្លងដែន​សហរដ្ឋអាមេរិក​។​ យើង​លើកទឹកចិត្តឲ្យ​អ្នកធ្វើការ​ស្វែងយល់​ថា​តើ​អ្នក​មានលក្ខណៈ​សម្បត្តិ​គ្រប់គ្រាន់​ក្នុង​ការទទួល​បាន​​សញ្ជាតិ​​​អាមេរិកហើយ​ឬនៅ​ និង​​ស្វែង​យល់​បន្ថែម​អំពី​អ្វីដែល​អ្នក​ត្រូវ​ការ​ដើម្បី​ដាក់​ពាក្យ​សុំ។​ &lt;/p&gt;
+        &lt;div class="clearfix"&gt;&lt;br&gt;&lt;/div&gt;</value>
+    <comment>00</comment>
+  </data>
+  <data name="pageSecondAgenciesSectionHeader" xml:space="preserve">
+    <value />
+    <comment>04</comment>
+  </data>
+  <data name="pageSecondServicesSectionHeader" xml:space="preserve">
+    <value>សេវា​ស្តីពីសញ្ជាតិ</value>
+    <comment>02</comment>
+  </data>
+</root>

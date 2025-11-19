@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="browserTitle" xml:space="preserve">
+    <value>WILDFIRE, FLOOD, AND MUDSLIDE RECOVERY RESOURCES</value>
+    <comment>00</comment>
+  </data>
+  <data name="pageText" xml:space="preserve">
+    <value>&lt;p style="text-align:center;font-weight:bold;font-size: 1.6em" role="heading" aria-level="1"&gt;WILDFIRE, FLOOD, AND MUDSLIDE RECOVERY RESOURCES&lt;/p&gt;
+
+&lt;p&gt;Below you will find links to disaster recovery resources and information on ensuring your health and safety.&lt;/p&gt;
+
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Disaster Relief for Immigrants Guide&lt;/p&gt;
+
+&lt;p&gt;The California Department of Social Services Guide to Disaster Services for Immigrant Californians provides detailed information about the different types of federal, state, and local disaster assistance services available in California. Although some of the resources are restricted to individuals or households with lawful immigration status, there are many services available to all Californians who have been impacted by the wildfires.&lt;/p&gt;
+
+	&lt;p style="margin-left: 30px;"&gt;&lt;a href="http://www.cdss.ca.gov/Portals/13/DisasterAssistanceGuideforImmigrantCaliforniansFinal.pdf?ver=2017-10-24-121156-427" target="_blank"&gt;CDSS Guide to Disaster Assistance Services for Immigrant Californians &lt;/a&gt; (PDF)&lt;/p&gt;
+	
+	&lt;p style="margin-left: 30px;"&gt;&lt;a aria-label="CDSS Guide to Disaster Assistance Services for Immigrant Californians in Spanish" href="https://www.cdss.ca.gov/Portals/13/DisasterAssistanceGuideforImmigrantCaliforniansSpanishFinal.pdf?ver=2018-11-15-160401-747" target="_blank"&gt;CDSS Guide to Disaster Assistance Services for Immigrant Californians&lt;/a&gt; (PDF in Spanish) &lt;/p&gt;
+
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Disaster CalFresh&lt;/p&gt;
+
+&lt;p&gt;Disaster CalFresh (D-CalFresh), federally known as the Disaster Supplemental Nutrition Assistance Program (D-SNAP), is a way to meet the temporary nutritional needs of disaster victims within a 30-day period, following a natural disaster such as a flood, fire, earthquake or any other natural disaster. D-CalFresh provides a month's worth of benefits on an Electronic Benefit Transfer (EBT) card which can be used to purchase food at authorized retail stores.&lt;/p&gt;
+
+	&lt;p style="margin-left: 30px;"&gt;&lt;a href="https://www.cdss.ca.gov/DisasterCalFresh1" target="_blank"&gt;Disaster CalFresh&lt;/a&gt;&lt;/p&gt;
+ 
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Disaster Unemployment Assistance&lt;/p&gt;
+
+&lt;p&gt;Disaster Unemployment Assistance (DUA) benefits are available for authorized workers, business owners, and self-employed individuals who lost jobs or had work hours substantially reduced as a direct result of disasters. &lt;/p&gt;
+
+	&lt;p style="margin-left: 30px;"&gt;&lt;a href="http://www.edd.ca.gov/About_EDD/Disaster_Related_Services.htm" target="_blank"&gt;Unemployment insurance (UI) and DUA information&lt;/a&gt;&lt;/p&gt;
+	
+	
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Cal/OSHA Worker Health and Safety&lt;/p&gt;
+
+&lt;p&gt;The Division of Occupational Safety and Health (DOSH), better known as Cal/OSHA, protects and improves the health and safety of working men and women in California.&lt;/p&gt;
+	
+	&lt;p style="margin-left: 30px;"&gt;&lt;a href="http://www.dir.ca.gov/dosh/Worker-Health-and-Safety-in-Wildfire-Regions.html" target="_blank"&gt;Cal/OSHA Worker Health and Safety in Wildfires Regions&lt;/a&gt;  – Cal/OSHA offers information for employers on how to protect workers exposed to smoke from wildfires and lists County Emergency Operations Centers where N95 respirator masks are available.&lt;/p&gt;
+	
+	&lt;p style="margin-left: 30px;"&gt;To &lt;a href="http://www.dir.ca.gov/dosh/Complaint.htm" target="_blank"&gt;File a Workplace Safety Complaint&lt;/a&gt; with the Department of Industrial Relations (DIR)&lt;/p&gt;
+	
+	
+	
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;California Department of Food and Agriculture&lt;/p&gt;
+
+	&lt;p style="margin-left: 30px;"&gt;The California Department of Food and Agriculture (CDFA) offers &lt;a href="https://www.cdfa.ca.gov/firerecovery/" target="_blank"&gt; wildfire recovery resources&lt;/a&gt;.&lt;/p&gt;
+	
+
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;California Department of Public Health&lt;/p&gt;
+
+	&lt;p style="margin-left: 30px;"&gt;&lt;a href="https://www.cdph.ca.gov/Programs/EPO/Pages/Wildfire%20Pages/N95-Respirators-FAQs.aspx" target="_blank"&gt;Guidance on respirator masks&lt;/a&gt;&lt;/p&gt;
+	
+	
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;California Office of Emergency Services&lt;/p&gt;
+
+	&lt;p style="margin-left: 30px;"&gt;&lt;a href="http://wildfirerecovery.org/" target="_blank"&gt;California Wildfire Recovery Resources&lt;/a&gt;&lt;/p&gt;
+	 
+	
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;California Department of Insurance&lt;/p&gt;
+
+	&lt;p style="margin-left: 30px;"&gt;&lt;a href="https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm" target="_blank"&gt;Insurance Related Resources&lt;/a&gt;&lt;/p&gt;
+	
+
+&lt;p style="font-weight:bold;font-size: 1.2em"&gt;Legal Assistance&lt;/p&gt;
+
+&lt;p&gt;If you have questions about your eligibility based on your immigration status or need legal help to navigate the disaster relief application process, you may be eligible for free legal services. &lt;/p&gt;
+
+	&lt;p style="margin-left: 30px;"&gt;&lt;a href="https://www.cdss.ca.gov/Benefits-Services/More-Services/Immigration-Services/Immigration-Services-Contractors" target="_blank"&gt;CDSS Immigration Services Contractors&lt;/a&gt;&lt;/p&gt;
+	
+
+
+
+</value>
+    <comment>02</comment>
+  </data>
+  <data name="pageTitle" xml:space="preserve">
+    <value>WILDFIRE, FLOOD, AND MUDSLIDE RECOVERY RESOURCES</value>
+    <comment>01</comment>
+  </data>
+</root>

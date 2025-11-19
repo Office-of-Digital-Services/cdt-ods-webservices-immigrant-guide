@@ -1,0 +1,21 @@
+﻿
+<div id="agencyFilteredListingText">
+    @Html.Partial("~/Views/Shared/ImmigrantGuide/_Spinner.cshtml")
+</div>
+
+<script>
+
+    function toggleCollapseSwapper(thisid) {
+        var x = document.getElementById(thisid).getAttribute("class");
+
+        if (x == "ca-gov-icon-plus-fill") {
+            document.getElementById(thisid).className = "ca-gov-icon-minus-fill";
+        }
+        else {
+            document.getElementById(thisid).className = "ca-gov-icon-plus-fill";
+        }
+    }
+
+    processJsonData.showAgenciesList('agencyFilteredListingText', '', 'Immigration', servicesSubset, 'a', constantEntityProfileLangCode);
+
+</script>
