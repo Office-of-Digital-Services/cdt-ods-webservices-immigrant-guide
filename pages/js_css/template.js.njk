@@ -1,0 +1,10 @@
+---
+layout: null
+permalink: "js/template.js"
+eleventyExcludeFromCollections: true
+---
+
+{%- set code -%}
+{%- include "../../node_modules/@cagovweb/state-template/dist/js/cagov.core.min.js" ignore missing -%}
+{%- endset -%}
+{{- code | safe -}}

@@ -1,0 +1,101 @@
+:root {
+  --text-field-color: var(--text-color);
+}
+
+.bg-primary-alpha-90 {
+  background-color: color-mix(
+    in srgb,
+    var(--color-p2) 90%,
+    transparent
+  ) !important;
+}
+
+.header-banner {
+  background-image: url(/images/banner.webp);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+@media (min-width: 992px) {
+  .header-banner {
+    background-image: url(/images/banner.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  .m-t-300 {
+    margin-top: 300px;
+  }
+}
+
+.section-standout .text-accent-s2 {
+  color: #87b8ce !important;
+}
+
+.section-standout .text-accent-s1 {
+  color: #84b091 !important;
+}
+
+div.lineart {
+  @media (width <= 1200px) {
+    background-image: none !important;
+  }
+}
+
+.gsc-control-cse {
+  background-color: var(--body-bg) !important;
+  border-color: var(--body-bg) !important;
+}
+.gsc-webResult.gsc-result {
+  border: 1px solid var(--body-bg) !important;
+  background-color: var(--body-bg) !important;
+}
+
+.gs-webResult.gs-result a.gs-title,
+.gs-webResult.gs-result a.gs-title b,
+.gs-imageResult a.gs-title,
+.gs-imageResult a.gs-title b {
+  color: var(--link-color) !important;
+}
+
+.gs-webResult.gs-result a.gs-title:hover,
+.gs-webResult.gs-result a.gs-title b:hover,
+.gs-imageResult a.gs-title:hover,
+.gs-imageResult a.gs-title b:hover,
+.gs-webResult.gs-result a.gs-title:focus,
+.gs-webResult.gs-result a.gs-title b:focus,
+.gs-imageResult a.gs-title:focus,
+.gs-imageResult a.gs-title b:focus {
+  color: var(--link-color-hover) !important;
+}
+
+.gs-promotion .gs-visibleUrl,
+.gs-webResult .gs-visibleUrl {
+  color: var(--text-muted) !important;
+}
+
+.gs-webResult .gs-snippet,
+.gs-fileFormatType,
+.gsc-result-info,
+.gsc-orderby-label {
+  color: var(--text-color) !important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+  color: var(--text-color) !important;
+  background-color: var(--body-bg) !important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+  color: var(--link-color) !important;
+  background-color: var(--bg-default) !important;
+}
+
+.gcsc-find-more-on-google-magnifier {
+  fill: var(--text-muted) !important;
+}
+.gcsc-find-more-on-google {
+  color: var(--text-muted) !important;
+}
