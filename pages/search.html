@@ -1,0 +1,67 @@
+---
+title: 404 Page not found
+description: 404 Page not found
+permalink: en/Search/
+---
+
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/images/search-lineart.svg') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <h1 class="mt-3 mb-3">Search Results</h1>
+  </div>
+</div>
+
+<div class="container pt-5 pb-5">
+  <div class="pt-5 pb-5 search-results-header">
+    <form id="Search" class="d-flex" action="?">
+      <span class="sr-only" id="SearchInput">Custom Google Search</span>
+      <input
+        type="search"
+        id="q"
+        name="q"
+        aria-labelledby="SearchInput"
+        placeholder="Search this website"
+        class="search-textfield height-50"
+        style="width:95%" />
+      <button
+        type="submit"
+        class="gsc-search-button width-60 height-50 color-white border-0 bg-gray-600 bg-gray-800-hover">
+        <span class="ca-gov-icon-search" aria-hidden="true"></span>
+        <span class="sr-only">Submit</span>
+      </button>
+    </form>
+  </div>
+
+  <script>
+
+    function getQueryStringValue(key) {
+        return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" +
+                encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") +
+                "(?:\\=([^&]*))?)?.*$",
+                "i"),
+            "$1"));
+    }
+
+    var cxvalue = getQueryStringValue('googleid');
+    var searchterm = getQueryStringValue('q');
+
+    if (!(searchterm == "Immigrant Guide")) {
+        searchterm = searchterm.split('+').join(' ')
+        var qInput = document.querySelector('[name="q"]');
+        if (qInput) qInput.value = searchterm;
+    }
+
+    (function() {
+        var cx = cxvalue;
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+
+  <gcse:searchresults-only></gcse:searchresults-only>
+</div>

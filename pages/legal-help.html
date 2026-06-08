@@ -1,0 +1,363 @@
+---
+title: Legal Help & Citizenship | California Immigrant Guide
+description: Information about legal help and citizenship resources for immigrants in California.
+permalink: en/LegalHelpAndCitizenship/
+---
+
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/images/topic8-lineart.svg') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <h1 class="mt-3 mb-3">Legal Help & Citizenship</h1>
+  </div>
+</div>
+
+<div class="container pt-5 pb-5">
+  <div class="row">
+    <div class="col-md-4 mb-5">
+      <img
+        src="/images/citizenship.webp"
+        alt="Young woman holding US passport and smiling"
+        class="img-fluid" />
+    </div>
+    <div class="col-md-8">
+      <h2 class="h4 mt-0">Legal Help</h2>
+      <p>
+        California funds programs at community based organizations that help
+        immigrants and refugees who live in California. The programs offer many
+        types of free legal services, as well as information about other
+        services that support immigrants. These organizations can teach you
+        about your rights and some can also give legal advice on how to change
+        your immigration status.
+      </p>
+
+      <h2 class="h4">Become a U.S. Citizen</h2>
+      <p>
+        If you are a permanent resident with a Green Card, you may qualify to
+        become U.S. citizen through "naturalization." There are many benefits to
+        U.S. citizenship. U.S. citizens have the right to vote and run for
+        public office. They can also apply for a U.S. passport. We encourage you
+        to find out if you qualify to become a U.S. citizen and learn more about
+        what you need to do to apply.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- prettier-ignore -->
+{%- set side_filter_list = [] -%}
+{%- for service in state_entity.services -%}
+  {%- if service.AgencyTags and ("Immigration" in service.AgencyTags and "Legal Help" in service.AgencyTags) and service.ServiceName != "CA COVID-19 Rent Relief" -%}
+    {%- set _ = side_filter_list.push(service) -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<div class="section-default">
+  <div class="container pt-5 pb-5">
+    <h2 class="mt-0">Legal Help — Services</h2>
+    {%- for service in side_filter_list -%}
+    <div data-row-key="{{service.AgencyId}}" class="pos-rel" role="listitem">
+      <div class="row">
+        <div class="col-md-2 text-center mb-4">
+          {% if service.ImagePath %}
+          <img
+            src="{{service.ImagePath}}"
+            data-fallback-ext="{{ service.ImageExt }}"
+            loading="lazy"
+            crossorigin="anonymous"
+            class="img-fluid width-150 d-block mx-auto"
+            alt="{{ service.AltText }}"
+            aria-hidden="true" />
+
+          {% endif %}
+        </div>
+        <div class="col-md-6">
+          <h3 class="lead m-t-0 mb-3">
+            <a
+              href="https://www.ca.gov/departments/{{ service.AgencyId }}/services/{{ service.ServiceId }}/">
+              {{-service.ServiceName-}}
+            </a>
+          </h3>
+          <p class="font-size-14 bold">by {{service.FriendlyName}}</p>
+          <p class="department-description">
+            {{service.Description | truncate(180)}}
+          </p>
+          <ul class="list-unstyled mb-4">
+            {% if service.ContactPhoneDisplay %}
+            <li>
+              <span class="bold">Phone:</span>
+              <a href="tel:{{service.ContactPhoneDigits}}"
+                >{{service.ContactPhoneDisplay}}</a
+              >
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+        <div class="col-md-3 pt-3">
+          <a
+            class="btn btn-default btn-sm m-r-md m-b pt-2 pb-2 w-100"
+            href="{{service.ServiceUrl}}">
+            Launch
+            <span class="sr-only">{{service.ServiceName}}</span> service</a
+          >
+          <a
+            href="https://www.ca.gov/departments/{{ service.AgencyId }}/services/{{ service.ServiceId }}/"
+            class="btn btn-default btn-sm m-b pt-2 pb-2 w-100">
+            <span class="sr-only">{{service.ServiceName}}</span> Service
+            details</a
+          >
+          <hr class="brd-0 mt-0 mb-0" />
+        </div>
+      </div>
+    </div>
+
+    <hr class="m-y-md" data-row-key="{{services.AgencyId}}" />
+
+    {%- endfor %}
+
+    <!-- prettier-ignore -->
+    {%- set side_filter_list = [] -%}
+{%- for service in state_entity.services -%}
+  {%- if service.AgencyTags and ("Immigration" in service.AgencyTags and "Citizenship" in service.AgencyTags) and service.ServiceName != "CA COVID-19 Rent Relief" -%}
+    {%- set _ = side_filter_list.push(service) -%}
+  {%- endif -%}
+{%- endfor -%}
+
+    <h2 class="mt-0">U.S. Citizenship — Services</h2>
+    {%- for service in side_filter_list -%}
+    <div data-row-key="{{service.AgencyId}}" class="pos-rel" role="listitem">
+      <div class="row">
+        <div class="col-md-2 text-center mb-4">
+          {% if service.ImagePath %}
+          <img
+            src="{{service.ImagePath}}"
+            data-fallback-ext="{{ service.ImageExt }}"
+            loading="lazy"
+            crossorigin="anonymous"
+            class="img-fluid width-150 d-block mx-auto"
+            alt="{{ service.AltText }}"
+            aria-hidden="true" />
+
+          {% endif %}
+        </div>
+        <div class="col-md-6">
+          <h3 class="lead m-t-0 mb-3">
+            <a
+              href="https://www.ca.gov/departments/{{ service.AgencyId }}/services/{{ service.ServiceId }}/">
+              {{-service.ServiceName-}}
+            </a>
+          </h3>
+          <p class="font-size-14 bold">by {{service.FriendlyName}}</p>
+          <p class="department-description">
+            {{service.Description | truncate(180)}}
+          </p>
+          <ul class="list-unstyled mb-4">
+            {% if service.ContactPhoneDisplay %}
+            <li>
+              <span class="bold">Phone:</span>
+              <a href="tel:{{service.ContactPhoneDigits}}"
+                >{{service.ContactPhoneDisplay}}</a
+              >
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+        <div class="col-md-3 pt-3">
+          <a
+            class="btn btn-default btn-sm m-r-md m-b pt-2 pb-2 w-100"
+            href="{{service.ServiceUrl}}">
+            Launch
+            <span class="sr-only">{{service.ServiceName}}</span> service</a
+          >
+          <a
+            href="https://www.ca.gov/departments/{{ service.AgencyId }}/services/{{ service.ServiceId }}/"
+            class="btn btn-default btn-sm m-b pt-2 pb-2 w-100">
+            <span class="sr-only">{{service.ServiceName}}</span> Service
+            details</a
+          >
+          <hr class="brd-0 mt-0 mb-0" />
+        </div>
+      </div>
+    </div>
+
+    <hr class="m-y-md" data-row-key="{{services.AgencyId}}" />
+
+    {%- endfor %}
+  </div>
+</div>
+
+<div class="container pt-5 pb-5">
+  <h2>Additional Legal Help & Citizenship Resources</h2>
+  <div class="row">
+    <div class="col-lg-6">
+      <ul class="list-standout">
+        <li>
+          <a href="https://www.uscis.gov/greencard" target="_blank"
+            ><strong>Learn About Getting a Green Card</strong></a
+          >
+          <p>
+            The U.S. Citizenship and Immigration Services agency offers
+            information for becoming a Permanent Resident of the United States.
+          </p>
+        </li>
+        <li>
+          <a
+            href="https://www.uscis.gov/citizenship/learners/study-test"
+            target="_blank"
+            ><strong>Study for the U.S. Citizenship Test</strong></a
+          >
+          <p>
+            The U.S. Citizenship and Immigration Services agency offers
+            information about taking the required tests for becoming a
+            naturalized U.S. citizen.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-6">
+      <ul class="list-standout">
+        <li>
+          <a
+            href="https://www.uscis.gov/citizenship/other-languages"
+            target="_blank"
+            ><strong>Translated Citizenship Questions</strong></a
+          >
+          <p>
+            The U.S. Citizenship and Immigration Services agency offers
+            translations of the questions asked during a naturalization
+            interview.
+          </p>
+        </li>
+
+        <li>
+          <a
+            href="https://www.uscis.gov/citizenship/apply-for-citizenship/free-naturalization-information-sessions"
+            target="_blank"
+            ><strong>Free USCIS Information Meetings</strong></a
+          >
+          <p>
+            The U.S. Citizenship and Immigration Services agency offers free
+            informational meetings. These meetings are open to the public and
+            include information on the naturalization process.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section-default">
+  <div class="container pt-5 pb-5">
+    <h2 class="mt-0">Legal Help & Citizenship — State Agencies</h2>
+
+    <!-- prettier-ignore -->
+    {%- set side_filter_list = [] -%}
+    {%- for agency in state_entity.agencies -%}
+      {%- if agency.AgencyTags and ("Immigration" in agency.AgencyTags and "Citizenship" in agency.AgencyTags) -%}
+        {%- set _ = side_filter_list.push(agency) -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- for agency in side_filter_list -%}
+    <div data-row-key="{{agency.AgencyId}}" class="pos-rel" role="listitem">
+      <div class="row">
+        <div class="col-md-2 text-center mb-4">
+          <img
+            src="{{ agency.LogoPath if agency.LogoPath else 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+X+1cAAAAASUVORK5CYII='}}"
+            data-fallback-ext="{{ agency.LogoExt }}"
+            class="img-fluid width-150 d-block mx-auto"
+            loading="lazy"
+            alt="{{agency.FriendlyName}} logo" />
+        </div>
+        <div class="col-md-6">
+          <h3 class="lead m-t-0 m-b">
+            <a href="https://www.ca.gov/departments/{{ agency.AgencyId }}/"
+              >{{service.ServiceName}} {{agency.FriendlyName}}
+              ({{agency.Acronym}})</a
+            >
+          </h3>
+          <p class="department-description">
+            {{agency.Description | truncate(180)}}
+          </p>
+          <ul class="list-unstyled mb-4">
+            {% if agency.ContactEmail %}
+            <li class="mb-1">
+              <span class="bold">Email:</span>
+              <a href="mailto:{{agency.ContactEmail}}"
+                >{{agency.ContactEmail}}</a
+              >
+            </li>
+            {% endif %} {% if agency.ContactPhone %}
+            <li>
+              <span class="bold">Phone:</span>
+              <a href="tel:{{agency.ContactPhoneDigits}}"
+                >{{agency.ContactPhoneDisplay}}</a
+              >
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+        <div class="col-md-3 pt-3">
+          <a
+            class="btn btn-default btn-sm m-r-md m-b pt-2 pb-2 w-100"
+            href="{{agency.WebsiteURL}}"
+            ><span class="sr-only">{{agency.FriendlyName}}</span>
+            Department website
+          </a>
+          <a
+            href="{{agency.ContactURL}}"
+            class="btn btn-default btn-sm m-b pt-2 pb-2 w-100"
+            ><span class="sr-only">{{agency.FriendlyName}}</span>
+            More contact info
+          </a>
+          <hr class="brd-0 mt-0 mb-0" />
+          {% if agency.GooglePlayStoreUrl or agency.AppleAppStoreUrl %}
+          <div class="d-flex justify-content-center gap-3 flex-wrap">
+            {% if agency.GooglePlayStoreUrl %}
+            <a
+              href="{{agency.GooglePlayStoreUrl}}"
+              class="wp-block-button__link">
+              <img
+                src="/images/googleplay-download.svg"
+                alt="Get {{agency.FriendlyName}} app on Google Play"
+                class="height-50" />
+            </a>
+            {% endif -%} {% if agency.AppleAppStoreUrl %}
+            <a href="{{agency.AppleAppStoreUrl}}" class="wp-block-button__link">
+              <img
+                src="/images/app-store-download.svg"
+                alt="Get {{agency.FriendlyName}} app on the App Store"
+                class="height-50 mb-3" />
+            </a>
+            {% endif -%}
+          </div>
+          <hr class="brd-0 mt-0 mb-0" />
+          {% endif %}
+          <div class="d-flex justify-content-center gap-2 flex-wrap">
+            {% if agency.Facebook %}
+            <a href="{{agency.Facebook}}" class="no-underline font-size-30">
+              <span class="ca-gov-icon-share-facebook"></span>
+              <span class="sr-only">{{agency.FriendlyName}} Facebook</span>
+            </a>
+            {% endif %} {% if agency.TwitterAccount %}
+            <a
+              href="{{agency.TwitterAccount}}"
+              class="no-underline font-size-30">
+              <span class="ca-gov-icon-share-twitter"></span>
+              <span class="sr-only">{{agency.FriendlyName}} X (twitter)</span>
+            </a>
+            {% endif %} {% if agency.YouTube %}
+            <a href="{{agency.YouTube}}" class="no-underline font-size-30">
+              <span class="ca-gov-icon-share-youtube"></span>
+              <span class="sr-only">{{agency.FriendlyName}} Youtube</span>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="m-y-md" data-row-key="{{agency.AgencyId}}" />
+
+    {%- endfor %}
+  </div>
+</div>

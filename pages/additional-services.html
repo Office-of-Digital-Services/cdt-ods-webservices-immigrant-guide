@@ -1,0 +1,76 @@
+---
+title: Additional Services | California Immigrant Guide
+description: Browse California services for newcomers and find support for English learning, workforce training, naturalization preparation, and legal help.
+permalink: en/Home/Services/
+---
+
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/images/services-lineart.svg') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <h1 class="mt-3 mb-3">Additional Services</h1>
+  </div>
+</div>
+
+{%- set side_filter_list = [] -%} {%- for service in state_entity.services -%}
+{%- if service.AgencyTags and "Immigration" in service.AgencyTags -%} {%- set _
+= side_filter_list.push(service) -%} {%- endif -%} {%- endfor -%}
+
+<div class="container pt-5 pb-5">
+  {%- for service in side_filter_list -%}
+  <div data-row-key="{{service.AgencyId}}" class="pos-rel" role="listitem">
+    <div class="row">
+      <div class="col-md-2 text-center mb-4">
+        {% if service.ImagePath %}
+        <img
+          src="{{service.ImagePath}}"
+          data-fallback-ext="{{ service.ImageExt }}"
+          loading="lazy"
+          crossorigin="anonymous"
+          class="img-fluid width-150 d-block mx-auto"
+          alt="{{ service.AltText }}"
+          aria-hidden="true" />
+
+        {% endif %}
+      </div>
+      <div class="col-md-6">
+        <h3 class="lead m-t-0 mb-3">
+          <a
+            href="https://www.ca.gov/departments/{{ service.AgencyId }}/services/{{ service.ServiceId }}/">
+            {{-service.ServiceName-}}
+          </a>
+        </h3>
+        <p class="font-size-14 bold">by {{service.FriendlyName}}</p>
+        <p class="department-description">{{service.Description | truncate(180)}}</p>
+        <ul class="list-unstyled mb-4">
+          {% if service.ContactPhoneDisplay %}
+          <li>
+            <span class="bold">Phone:</span>
+            <a href="tel:{{service.ContactPhoneDigits}}"
+              >{{service.ContactPhoneDisplay}}</a
+            >
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+      <div class="col-md-3 pt-3">
+        <a
+          class="btn btn-default btn-sm m-r-md m-b pt-2 pb-2 w-100"
+          href="{{service.ServiceUrl}}">
+          Launch <span class="sr-only">{{service.ServiceName}}</span> service</a
+        >
+        <a
+          href="https://www.ca.gov/departments/{{ service.AgencyId }}/services/{{ service.ServiceId }}/"
+          class="btn btn-default btn-sm m-b pt-2 pb-2 w-100">
+          <span class="sr-only">{{service.ServiceName}}</span> Service
+          details</a
+        >
+        <hr class="brd-0 mt-0 mb-0" />
+      </div>
+    </div>
+  </div>
+
+  <hr class="m-y-md" data-row-key="{{services.AgencyId}}" />
+
+  {%- endfor %}
+</div>
