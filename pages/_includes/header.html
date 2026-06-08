@@ -1,0 +1,139 @@
+<header role="banner" id="header" class="global-header fixed">
+  <div id="skip-to-content">
+    <a href="#main-content">Skip to Main Content</a>
+  </div>
+
+  {% if alertHTML %} {{ alertHTML | safe}} {% endif %}
+
+  <div class="utility-header">
+    <div class="container">
+      <div class="flex-row">
+        <div class="social-media-links">
+          <div class="header-cagov-logo">
+            <a href="https://www.ca.gov">
+              <span class="sr-only">CA.gov</span>
+              <span class="ca-gov-logo-svg"></span>
+            </a>
+          </div>
+          <p class="official-tag">
+            <span class="desktop-only">Official website of the</span>
+            State of California
+          </p>
+        </div>
+        <div class="settings-links">
+          <a href="/en/Home/Agencies/">State Agencies</a>
+          <a href="/en/Home/Services/">Additional Services</a>
+          <a href="/translate/"
+            ><span class="ca-gov-icon-globe"></span>Translate</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- header branding with light gray background -->
+  <div class="section-default">
+    <div class="branding">
+      <div class="header-organization-banner">
+        <a href="/index.html">
+          <div class="logo-assets">
+            <img
+              src="/images/immigrant-logo.svg"
+              class="logo-img"
+              alt="Immigrant Guide Logo" />
+            <div class="logo-text">
+              <span class="logo-state">State of California</span>
+              <span class="logo-dept">Immigrant Guide</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile navigation controls -->
+  <div class="mobile-controls">
+    <span class="mobile-control-group mobile-header-icons">
+      <!-- Add more mobile controls here. These will be on the right side of the mobile page header section -->
+    </span>
+    <div class="mobile-control-group main-nav-icons">
+      {#
+      <button class="mobile-control toggle-search">
+        <span class="ca-gov-icon-search hidden-print" aria-hidden="true"></span>
+        <span class="sr-only">Search</span>
+      </button>
+      #}
+      <button
+        id="nav-icon3"
+        type="button"
+        class="mobile-control toggle-menu"
+        aria-expanded="false"
+        aria-controls="navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="navigation-search full-width-nav container">
+    <div id="head-search" class="search-container featured-search">
+      {%- if page.fileSlug != "search" -%}
+      <div class="container">
+        <form id="Search" class="pos-rel" action="/en/Search/">
+          <input type="hidden" name="googleid" value="001779225245372747843:8cyk3d-ufgk" />
+          <span class="sr-only" id="SearchInput">Custom Google Search</span>
+          <input
+            type="search"
+            name="q"
+            aria-labelledby="SearchInput"
+            placeholder="Search"
+            class="search-textfield" />
+          <button type="submit" class="gsc-search-button">
+            <span class="ca-gov-icon-search" aria-hidden="true"></span>
+            <span class="sr-only">Submit</span>
+          </button>
+        </form>
+      </div>
+      {%- endif -%}
+    </div>
+    <!-- navigation types -->
+    <nav
+      id="navigation"
+      class="main-navigation dropdown"
+      aria-label="Main navigation">
+      <ul id="nav_list" class="top-level-nav">
+        <li class="nav-item">
+          <a
+            class="first-level-link  {{- ' active' if landing === 'Public Benefits' }}"
+            href="/en/PublicBenefits/"
+            >Public Benefits</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="first-level-link  {{- ' active' if landing === 'Jobs' }}"
+            href="/en/FindJobsAndTraining/"
+            >Jobs & Training</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="first-level-link  {{- ' active' if landing === 'Education' }}"
+            href="/en/Education/"
+            >Education</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="first-level-link {{- ' active' if landing === 'Legal' }}"
+            href="/en/LegalHelpAndCitizenship/"
+            >Legal Help & Citizenship</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
