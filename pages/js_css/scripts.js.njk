@@ -1,0 +1,10 @@
+---
+layout: null
+permalink: "js/scripts.js"
+eleventyExcludeFromCollections: true
+---
+
+{%- set code -%}
+{%- include "../../src/js/scripts.js" -%}
+{%- endset -%}
+{{- code | safe -}}
