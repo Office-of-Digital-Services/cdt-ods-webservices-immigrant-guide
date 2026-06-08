@@ -1,9 +1,8 @@
-website for www.celebrate.ca.gov
+website for www.immigrantguide.ca.gov
+
+California Immigrant Guide helps newcomers find English learning, workforce training, naturalization preparation, and legal support to thrive in California.
 
 **Important locations**
 
-- [Prod Website](https://www.celebrate.ca.gov/)
-- [Dev Website](https://www.dev.celebrate.ca.gov/)
-- [Test website](https://www.test.celebrate.ca.gov/)
-- [GitHub Repo](https://github.com/CDT-ODS-DevSecOps/cdt-ods-webservices-celebrate)
-- [Azure DevOps](https://calenterprise.visualstudio.com/CDT.ODS.WebServices.Celebrate)
+- [Prod Website](https://www.immigrantguide.ca.gov/)
+- [GitHub Repo](https://github.com/Office-of-Digital-Services/cdt-ods-webservices-immigrant-guide)
