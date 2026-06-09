@@ -10,7 +10,7 @@ import PurgeCSS from "@fullhuman/postcss-purgecss";
  */
 
 export default async function (/** @type {EleventyConfig} **/ eleventyConfig) {
-  const domain = "https://www.celebrate.ca.gov";
+  const domain = "https://www.immigrantguide.ca.gov";
 
   eleventyConfig.addGlobalData("layout", "base-layout");
 
