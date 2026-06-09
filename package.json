@@ -1,11 +1,11 @@
 {
-  "name": "celebrate.ca.gov",
+  "name": "immigrantguide.ca.gov",
   "version": "0.1.1",
   "type": "module",
-  "description": "www.celebrate.ca.gov",
+  "description": "www.immigrantguide.ca.gov",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CDT-ODS-DevSecOps/cdt-ods-webservices-celebrate.git"
+    "url": "https://github.com/Office-of-Digital-Services/cdt-ods-webservices-immigrant-guide"
   },
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
