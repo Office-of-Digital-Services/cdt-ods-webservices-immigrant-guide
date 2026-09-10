@@ -12,18 +12,18 @@ pool:
   vmImage: "ubuntu-latest"
 
 steps:
-  - task: NodeTool@0
+  - task: UseNode@1
     inputs:
-      versionSpec: "18.x"
-    displayName: "Install Node.js"
+      version: "22"
+    displayName: "Use Node.js 22"
 
   - script: |
       npm install
-    displayName: 'npm install'
+    displayName: "npm install"
 
   - script: |
       npm run build
-    displayName: 'npm build'
+    displayName: "npm build"
 
   - task: CopyFiles@2
     inputs:
