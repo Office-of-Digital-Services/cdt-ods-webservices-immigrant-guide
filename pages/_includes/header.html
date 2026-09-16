@@ -4,7 +4,27 @@
   </div>
 
   {% if alertHTML %} {{ alertHTML | safe}} {% endif %}
-
+  <div
+    class="alert alert-warning alert-dismissible alert-banner px-3 font-size-15 pe-5"
+    role="alert">
+    <span
+      class="alert-icon ca-gov-icon-warning-triangle text-warning"
+      aria-hidden="true"></span>
+    <span class="alert-text"
+      ><span class="text-bold">Notice:</span> This website will be soon
+      decommissioned and no longer updated. For the most current information,
+      visit our new
+      <span class="ca-gov-icon-pipe" aria-hidden="true"></span>
+      <a href="https://www.ca.gov/immigration/">Immigration portal</a></span
+    >
+    <button
+      type="button"
+      class="close ms-lg-auto"
+      data-bs-dismiss="alert"
+      aria-label="Close">
+      <span class="ca-gov-icon-close-mark" aria-hidden="true"></span>
+    </button>
+  </div>
   <div class="utility-header">
     <div class="container">
       <div class="flex-row">
@@ -83,7 +103,10 @@
       {%- if page.fileSlug != "search" -%}
       <div class="container">
         <form id="Search" class="pos-rel" action="/en/Search/">
-          <input type="hidden" name="googleid" value="001779225245372747843:8cyk3d-ufgk" />
+          <input
+            type="hidden"
+            name="googleid"
+            value="001779225245372747843:8cyk3d-ufgk" />
           <span class="sr-only" id="SearchInput">Custom Google Search</span>
           <input
             type="search"
