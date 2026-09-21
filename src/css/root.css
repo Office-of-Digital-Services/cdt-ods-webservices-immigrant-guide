@@ -17,6 +17,14 @@
   background-size: 100% auto;
 }
 
+.global-header {
+  > .section-default {
+    &::after {
+      display: none;
+    }
+  }
+}
+
 @media (min-width: 992px) {
   .header-banner {
     background-image: url(/images/banner.webp);
