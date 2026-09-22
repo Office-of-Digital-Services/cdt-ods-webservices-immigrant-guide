@@ -17,6 +17,14 @@
   background-size: 100% auto;
 }
 
+.global-header {
+  > .section-default {
+    &::after {
+      display: none;
+    }
+  }
+}
+
 @media (min-width: 992px) {
   .header-banner {
     background-image: url(/images/banner.webp);
@@ -28,6 +36,10 @@
   .m-t-300 {
     margin-top: 300px;
   }
+}
+
+.p-b-100 {
+  padding-bottom: 100px !important;
 }
 
 .section-standout .text-accent-s2 {
